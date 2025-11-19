@@ -1,131 +1,106 @@
-# Web Scraping Pipeline - MiSuperFresh
+# Web Scraping & Recipe Generator Pipeline
 
-A robust web scraping pipeline for extracting product data from MiSuperFresh (misuperfresh.com.gt), built with data engineering and DevOps best practices.
+A streamlined pipeline for extracting product data from MiSuperFresh, processing it for AI consumption, and generating personalized recipes.
 
-## Features
+## Workflow
 
-- **API-based scraping**: Intercepts Flutter app API calls for reliable data extraction
-- **Automatic pagination**: Handles multiple pages automatically
-- **Smart configuration caching**: Caches best API configurations for faster subsequent runs
-- **Multiple URL support**: Scrape multiple catalog URLs in one run
-- **Data export**: Saves data in JSON and CSV formats
-- **Error handling**: Robust error handling with retry logic
-- **Logging**: Comprehensive logging for debugging and monitoring
+The project consists of 3 main steps:
+
+1.  **Scrape Data**: `main.py` extracts product data from the website.
+2.  **Process Data**: `process_data.py` filters edible products and formats them for ChatGPT.
+3.  **Generate Recipe**: `webapp/index.html` generates a prompt for ChatGPT to create a recipe based on the available products.
 
 ## Installation
 
-1. Install Python dependencies:
-```bash
-pip install -r requirements.txt
-```
+1.  Install Python dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-2. Install Playwright browser:
-```bash
-python -m playwright install chromium
-```
+2.  Install Playwright browser:
+    ```bash
+    python -m playwright install chromium
+    ```
 
 ## Usage
 
-### Basic Usage
+### Step 1: Scrape Data
 
-Run the scraper with default settings:
+Run the scraper to get the latest product list:
+
 ```bash
 python main.py
 ```
 
-This will:
-- Use the URL from `config/settings.py`
-- Extract all products automatically
-- Save results to `data/` folder (JSON and CSV)
+This will save JSON and CSV files to the `data/` directory (e.g., `products_YYYYMMDD_HHMMSS.json`).
 
-### Customize URL
+### Step 2: Process Data
 
-**Option 1: Edit `config/settings.py`**
-```python
-self.catalog_url: str = "https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225"
-```
+Process the scraped data to create a text file listing edible products and their prices:
 
-**Option 2: Use environment variable**
 ```bash
-set CATALOG_URL=https://www.misuperfresh.com.gt/catalog/10?minPrice=0&maxPrice=500
-python main.py
+python process_data.py
 ```
 
-**Option 3: Edit `main.py` to add multiple URLs**
-```python
-urls_to_scrape = [
-    settings.catalog_url,
-    "https://www.misuperfresh.com.gt/catalog/10?minPrice=0&maxPrice=500",
-    # Add more URLs here
-]
+This will automatically find the latest JSON file in `data/` and generate a text file (e.g., `products_YYYYMMDD_HHMMSS_productos_comestibles.txt`).
+
+### Step 3: Generate Recipe Prompt
+
+1.  Open `webapp/index.html` in your browser.
+2.  Fill out the recipe preferences form.
+3.  The app will generate a prompt for ChatGPT.
+4.  **Important**: Copy the content of the text file generated in Step 2.
+5.  Paste the prompt into ChatGPT, and attach or paste the content of the text file when asked (or as part of the context if the prompt instructions say so).
+
+## Data Analysis (Optional)
+
+You can analyze the scraped data (statistics, price distribution, etc.) using the Jupyter notebook:
+
+```bash
+jupyter notebook analyze_data.ipynb
+```
+
+## Project Structure
+
+```
+.
+├── main.py                    # Step 1: Scrape products
+├── process_data.py           # Step 2: Process JSON to text
+├── analyze_data.ipynb        # Optional: Analyze scraped data stats
+├── requirements.txt
+├── README.md
+├── config/
+│   ├── __init__.py
+│   └── settings.py           # Configuration
+├── scraper/
+│   ├── __init__.py
+│   ├── api_scraper.py        # API-based scraper
+│   ├── base_scraper.py
+│   └── parsers/
+│       ├── __init__.py
+│       └── misuperfresh_parser.py
+├── storage/
+│   ├── __init__.py
+│   └── file_storage.py
+├── utils/
+│   ├── __init__.py
+│   ├── logger.py
+│   └── error_handler.py
+├── data/                      # Generated files (gitignored)
+└── webapp/                    # Step 3: Recipe generator
+    ├── index.html
+    ├── script.js
+    └── styles.css
 ```
 
 ## Configuration
 
 Configuration is managed in `config/settings.py` and can be overridden with environment variables:
 
-- `API_FORCE_ALL_PRODUCTS`: Force "all products" mode (default: `true`)
-- `API_CACHE_CONFIG`: Enable configuration caching (default: `true`)
-- `CATALOG_URL`: Target URL to scrape
-- `OUTPUT_DIR`: Output directory for scraped data (default: `data`)
-- `LOG_LEVEL`: Logging level (default: `INFO`)
-
-## Project Structure
-
-```
-.
-├── main.py                 # Main entry point
-├── requirements.txt        # Python dependencies
-├── config/                 # Configuration files
-│   ├── settings.py         # Settings and configuration
-│   ├── constants.py        # Default constants
-│   └── api_config_cache.json  # Cached API configurations
-├── scraper/                # Scraping logic
-│   ├── api_scraper.py      # API-based scraper (primary)
-│   ├── browser_scraper.py  # Browser-based scraper (fallback)
-│   ├── base_scraper.py     # Base scraper class
-│   └── parsers/            # Data parsers
-│       └── misuperfresh_parser.py
-├── storage/                 # Data storage
-│   └── file_storage.py     # File-based storage (JSON, CSV)
-├── processing/              # Data processing (for future use)
-├── utils/                   # Utilities
-│   └── logger.py           # Logging configuration
-└── tests/                   # Unit tests
-
-```
-
-## Output
-
-Scraped data is saved to the `data/` directory with timestamps:
-- `products_YYYYMMDD_HHMMSS.json` - Full data with metadata
-- `products_YYYYMMDD_HHMMSS.csv` - Tabular format for analysis
-
-## How It Works
-
-1. **API Interception**: Uses Playwright to intercept API calls from the Flutter web app
-2. **Smart Configuration**: Automatically tests different API configurations to get all products
-3. **Caching**: Caches the best configuration for faster subsequent runs
-4. **Data Extraction**: Extracts product information including:
-   - Name, description, price
-   - Offer price and description
-   - Stock, barcode
-   - Category, subcategory
-   - Image URLs
-
-## Logging
-
-Logs are written to:
-- Console (INFO level and above)
-- `scraper.log` file (all levels)
-
-## Requirements
-
-- Python 3.7+
-- Playwright
-- See `requirements.txt` for full list
+-   `CATALOG_URL`: Target URL to scrape
+-   `OUTPUT_DIR`: Output directory for scraped data (default: `data`)
+-   `LOG_LEVEL`: Logging level (default: `INFO`)
 
 ## License
 
 This project is for educational and research purposes.
-
