@@ -1142,3 +1142,109 @@ Saving data to files...
 2025-11-18 01:01:14 - web_scraper - INFO - save_csv:104 - Saved 1922 products to CSV: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_010114.csv
 2025-11-18 01:01:14 - web_scraper - WARNING - save_parquet:121 - pandas not available, skipping Parquet export
 2025-11-18 01:01:14 - web_scraper - INFO - main:207 - Scraping pipeline completed (API method)
+2025-11-18 23:25:37 - web_scraper - INFO - main:101 - Starting web scraping pipeline
+2025-11-18 23:25:37 - web_scraper - INFO - main:108 - Scraping 1 URL(s)
+2025-11-18 23:25:37 - web_scraper - INFO - main:110 -   1. https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 23:25:37 - web_scraper - INFO - main:113 - 
+Attempting to scrape via API interception...
+2025-11-18 23:25:37 - web_scraper - INFO - scrape_multiple_urls:83 - Scraping 1 URLs using API scraper...
+2025-11-18 23:25:56 - web_scraper - INFO - _start_browser:37 - Browser started for API interception
+2025-11-18 23:25:56 - web_scraper - INFO - scrape_multiple_urls:86 - 
+============================================================
+2025-11-18 23:25:56 - web_scraper - INFO - scrape_multiple_urls:87 - URL 1/1: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 23:25:56 - web_scraper - INFO - scrape_multiple_urls:88 - ============================================================
+2025-11-18 23:25:56 - web_scraper - INFO - scrape_all_pages_api:43 - Starting pagination scraping from: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 23:25:56 - web_scraper - INFO - scrape_all_pages_api:46 - ============================================================
+2025-11-18 23:25:56 - web_scraper - INFO - scrape_all_pages_api:47 - SCRAPING PAGE 1
+2025-11-18 23:25:56 - web_scraper - INFO - scrape_all_pages_api:48 - ============================================================
+2025-11-18 23:25:56 - web_scraper - INFO - scrape_page_api:22 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 23:25:56 - web_scraper - INFO - scrape:120 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 23:26:03 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 23:26:03 - web_scraper - INFO - handle_response:91 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 23:26:03 - web_scraper - INFO - handle_route:134 - Captured POST request body: {
+  "channel": "web",
+  "type": 7,
+  "store": {
+    "code": 204
+  }
+}
+2025-11-18 23:26:03 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 23:26:03 - web_scraper - INFO - handle_response:91 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 23:26:03 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 23:26:03 - web_scraper - INFO - handle_response:91 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 23:26:03 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 23:26:03 - web_scraper - INFO - handle_response:91 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 23:26:05 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 23:26:05 - web_scraper - INFO - handle_response:91 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 23:26:06 - web_scraper - INFO - scrape:154 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 23:26:06 - web_scraper - INFO - scrape:165 - Successfully captured products API response
+2025-11-18 23:26:06 - web_scraper - INFO - scrape:169 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 23:26:06 - web_scraper - INFO - scrape:199 - Using cached best config: {'type': 1, 'subcategoryId': 9}
+2025-11-18 23:26:06 - web_scraper - INFO - scrape:206 - Force all products mode enabled, trying additional API calls...
+2025-11-18 23:26:06 - web_scraper - INFO - scrape:248 - Trying API call 1/5 with config: {'type': 1, 'subcategoryId': 9}...
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:277 -   Config {'type': 1, 'subcategoryId': 9}: Found 1922 products
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:282 -   NEW BEST! Found 1922 products with config: {'type': 1, 'subcategoryId': 9}
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:248 - Trying API call 2/5 with config: {'type': 0, 'subcategoryId': 9}...
+2025-11-18 23:26:08 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategory (Status: 200)
+2025-11-18 23:26:08 - web_scraper - INFO - handle_response:91 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:277 -   Config {'type': 0, 'subcategoryId': 9}: Found 0 products
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:248 - Trying API call 3/5 with config: {'subcategoryId': 9}...
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:277 -   Config {'subcategoryId': 9}: Found 0 products
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:248 - Trying API call 4/5 with config: {'type': 0}...
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:277 -   Config {'type': 0}: Found 0 products
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:248 - Trying API call 5/5 with config: {}...
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:277 -   Config {}: Found 0 products
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:304 - Cached best config: {'type': 1, 'subcategoryId': 9}
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:328 - Found products data with 1 products
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:328 - Found products data with 1922 products
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:331 - Found subcategory data
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:345 - Merging products from 3 API responses...
+2025-11-18 23:26:08 - web_scraper - INFO - scrape:356 - Merged 1922 unique products from 3 responses
+2025-11-18 23:26:08 - web_scraper - INFO - _parse_api_products:445 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 23:26:08 - web_scraper - INFO - _parse_api_products:450 - Found key 'products' with type: <class 'list'>
+2025-11-18 23:26:08 - web_scraper - INFO - _parse_api_products:453 -   Processing 1922 items from 'products'
+2025-11-18 23:26:08 - web_scraper - INFO - _parse_api_products:475 - Parsed 1922 products from API data
+2025-11-18 23:26:08 - web_scraper - INFO - scrape_all_pages_api:54 - Page 1: Found 1922 products (Total so far: 1922)
+2025-11-18 23:26:08 - web_scraper - INFO - scrape_all_pages_api:64 - No more pages available
+2025-11-18 23:26:08 - web_scraper - INFO - scrape_all_pages_api:67 - Completed pagination: 1 pages, 1922 total products
+2025-11-18 23:26:08 - web_scraper - INFO - scrape_multiple_urls:94 - URL 1 complete: 1922 products
+2025-11-18 23:26:08 - web_scraper - INFO - close:53 - Browser closed
+2025-11-18 23:26:08 - web_scraper - INFO - main:118 - 
+Successfully scraped 1922 total products via API
+2025-11-18 23:26:08 - web_scraper - INFO - main:134 - 
+Saving data to files...
+2025-11-18 23:26:08 - web_scraper - INFO - __init__:24 - File storage initialized: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data
+2025-11-18 23:26:09 - web_scraper - INFO - save_json:56 - Saved 1922 products to JSON: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_232608.json
+2025-11-18 23:26:09 - web_scraper - INFO - save_csv:104 - Saved 1922 products to CSV: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_232609.csv
+2025-11-18 23:26:13 - web_scraper - ERROR - main:149 - API scraper failed: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+Traceback (most recent call last):
+  File "c:\Users\Usuario\Documents\GitHub\web-scrapping super\main.py", line 136, in main
+    saved_files = storage.save(all_products, format="all")
+  File "c:\Users\Usuario\Documents\GitHub\web-scrapping super\storage\file_storage.py", line 162, in save
+    parquet_path = self.save_parquet(data)
+  File "c:\Users\Usuario\Documents\GitHub\web-scrapping super\storage\file_storage.py", line 136, in save_parquet
+    df.to_parquet(filepath, index=False)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Documents\GitHub\web-scrapping super\.venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Usuario\Documents\GitHub\web-scrapping super\.venv\Lib\site-packages\pandas\core\frame.py", line 3124, in to_parquet
+    return to_parquet(
+        self,
+    ...<6 lines>...
+        **kwargs,
+    )
+  File "C:\Users\Usuario\Documents\GitHub\web-scrapping super\.venv\Lib\site-packages\pandas\io\parquet.py", line 478, in to_parquet
+    impl = get_engine(engine)
+  File "C:\Users\Usuario\Documents\GitHub\web-scrapping super\.venv\Lib\site-packages\pandas\io\parquet.py", line 68, in get_engine
+    raise ImportError(
+    ...<7 lines>...
+    )
+ImportError: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
