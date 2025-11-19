@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Recetas - Chef AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍳 Generador de Recetas Personalizadas</h1>
+            <p class="subtitle">Selecciona tus preferencias y genera una receta perfecta para ti</p>
+        </header>
+
+        <form id="recipeForm">
+            <!-- 1. Tiempo de comida -->
+            <section class="filter-section">
+                <h2>⏰ 1. Tiempo de comida</h2>
+                <div class="radio-group">
+                    <label><input type="radio" name="tiempo_comida" value="Todos" checked> Todos</label>
+                    <label><input type="radio" name="tiempo_comida" value="Desayuno"> 🥐 Desayuno</label>
+                    <label><input type="radio" name="tiempo_comida" value="Merienda"> ☕ Merienda</label>
+                    <label><input type="radio" name="tiempo_comida" value="Almuerzo"> 🍽️ Almuerzo</label>
+                    <label><input type="radio" name="tiempo_comida" value="Refacción"> 🥪 Refacción</label>
+                    <label><input type="radio" name="tiempo_comida" value="Cena"> 🌙 Cena</label>
+                </div>
+            </section>
+
+            <!-- 2. Tipo de cocina -->
+            <section class="filter-section">
+                <h2>🌍 2. Tipo de cocina</h2>
+                <div class="radio-group">
+                    <label><input type="radio" name="tipo_cocina" value="Cualquiera" checked> Cualquiera</label>
+                    <label><input type="radio" name="tipo_cocina" value="Guatemalteca"> 🇬🇹 Guatemalteca</label>
+                    <label><input type="radio" name="tipo_cocina" value="Mexicana"> 🇲🇽 Mexicana</label>
+                    <label><input type="radio" name="tipo_cocina" value="Italiana"> 🇮🇹 Italiana</label>
+                    <label><input type="radio" name="tipo_cocina" value="Americana"> 🇺🇸 Americana</label>
+                    <label><input type="radio" name="tipo_cocina" value="Mediterránea"> 🫒 Mediterránea</label>
+                    <label><input type="radio" name="tipo_cocina" value="Fusion simple"> 🌐 Fusion simple</label>
+                </div>
+            </section>
+
+            <!-- 3. Nivel de saludable -->
+            <section class="filter-section">
+                <h2>🥗 3. Nivel de saludable</h2>
+                <div class="radio-group">
+                    <label><input type="radio" name="nivel_saludable" value="Cualquiera" checked> Cualquiera</label>
+                    <label><input type="radio" name="nivel_saludable" value="Alto"> 🟢 Alto</label>
+                    <label><input type="radio" name="nivel_saludable" value="Medio"> 🟡 Medio</label>
+                    <label><input type="radio" name="nivel_saludable" value="Bajo"> 🔴 Bajo</label>
+                </div>
+            </section>
+
+            <!-- 4. Cantidad de personas -->
+            <section class="filter-section">
+                <h2>👥 4. Cantidad de personas</h2>
+                <div class="radio-group">
+                    <label><input type="radio" name="cantidad_personas" value="Cualquiera" checked> Cualquiera</label>
+                    <label><input type="radio" name="cantidad_personas" value="1"> 👤 1</label>
+                    <label><input type="radio" name="cantidad_personas" value="2"> 👥 2</label>
+                    <label><input type="radio" name="cantidad_personas" value="3"> 👨‍👩‍👧 3</label>
+                    <label><input type="radio" name="cantidad_personas" value="4"> 👨‍👩‍👧‍👦 4</label>
+                    <label><input type="radio" name="cantidad_personas" value="5"> 👨‍👩‍👧‍👦👤 5</label>
+                </div>
+            </section>
+
+            <!-- 5. Presupuesto -->
+            <section class="filter-section">
+                <h2>💰 5. Presupuesto</h2>
+                <div class="radio-group">
+                    <label><input type="radio" name="presupuesto" value="Cualquiera" checked> Cualquiera</label>
+                    <label><input type="radio" name="presupuesto" value="Muy bajo"> 💵 Muy bajo</label>
+                    <label><input type="radio" name="presupuesto" value="Bajo"> 💶 Bajo</label>
+                    <label><input type="radio" name="presupuesto" value="Medio"> 💷 Medio</label>
+                    <label><input type="radio" name="presupuesto" value="Alto"> 💸 Alto</label>
+                </div>
+            </section>
+
+            <!-- 6. Método de preparación -->
+            <section class="filter-section">
+                <h2>🔥 6. Método de preparación</h2>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="metodo_preparacion" value="Cualquiera" checked> Cualquiera</label>
+                    <label><input type="checkbox" name="metodo_preparacion" value="Sin cocinar"> ❄️ Sin cocinar</label>
+                    <label><input type="checkbox" name="metodo_preparacion" value="Microondas"> 📻 Microondas</label>
+                    <label><input type="checkbox" name="metodo_preparacion" value="Estufa"> 🔥 Estufa</label>
+                    <label><input type="checkbox" name="metodo_preparacion" value="Horno"> 🍞 Horno</label>
+                    <label><input type="checkbox" name="metodo_preparacion" value="Freidora de aire"> 💨 Freidora de aire</label>
+                    <label><input type="checkbox" name="metodo_preparacion" value="Solo mezclar y servir"> 🥄 Solo mezclar y servir</label>
+                    <label><input type="checkbox" name="metodo_preparacion" value="Congelados listos"> ❄️ Congelados listos</label>
+                </div>
+            </section>
+
+            <!-- 7. Tipo de proteína -->
+            <section class="filter-section">
+                <h2>🍖 7. Tipo de proteína</h2>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="tipo_proteina" value="Cualquiera" checked> Cualquiera</label>
+                    <label><input type="checkbox" name="tipo_proteina" value="Pollo"> 🍗 Pollo</label>
+                    <label><input type="checkbox" name="tipo_proteina" value="Cerdo"> 🥓 Cerdo</label>
+                    <label><input type="checkbox" name="tipo_proteina" value="Res"> 🥩 Res</label>
+                    <label><input type="checkbox" name="tipo_proteina" value="Pescado"> 🐟 Pescado</label>
+                    <label><input type="checkbox" name="tipo_proteina" value="Mariscos"> 🦐 Mariscos</label>
+                    <label><input type="checkbox" name="tipo_proteina" value="Vegetariano"> 🥬 Vegetariano</label>
+                    <label><input type="checkbox" name="tipo_proteina" value="Vegano"> 🌱 Vegano</label>
+                </div>
+            </section>
+
+            <!-- 8. Base del plato -->
+            <section class="filter-section">
+                <h2>🍝 8. Base del plato</h2>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="base_plato" value="Cualquiera" checked> Cualquiera</label>
+                    <label><input type="checkbox" name="base_plato" value="Pasta"> 🍝 Pasta</label>
+                    <label><input type="checkbox" name="base_plato" value="Arroz"> 🍚 Arroz</label>
+                    <label><input type="checkbox" name="base_plato" value="Tortillas de maíz"> 🌽 Tortillas de maíz</label>
+                    <label><input type="checkbox" name="base_plato" value="Tortillas de harina"> 🫓 Tortillas de harina</label>
+                    <label><input type="checkbox" name="base_plato" value="Pan"> 🍞 Pan</label>
+                    <label><input type="checkbox" name="base_plato" value="Enlatados"> 🥫 Enlatados</label>
+                    <label><input type="checkbox" name="base_plato" value="Sopas"> 🍲 Sopas</label>
+                    <label><input type="checkbox" name="base_plato" value="Congelados"> ❄️ Congelados</label>
+                    <label><input type="checkbox" name="base_plato" value="Snacks como base"> 🍿 Snacks como base</label>
+                </div>
+            </section>
+
+            <!-- 9. Tiempo disponible -->
+            <section class="filter-section">
+                <h2>⏱️ 9. Tiempo disponible</h2>
+                <div class="radio-group">
+                    <label><input type="radio" name="tiempo_disponible" value="Cualquiera" checked> Cualquiera</label>
+                    <label><input type="radio" name="tiempo_disponible" value="5 minutos"> ⚡ 5 minutos</label>
+                    <label><input type="radio" name="tiempo_disponible" value="10 minutos"> ⚡⚡ 10 minutos</label>
+                    <label><input type="radio" name="tiempo_disponible" value="20 minutos"> ⏰ 20 minutos</label>
+                    <label><input type="radio" name="tiempo_disponible" value="30 minutos"> ⏰⏰ 30 minutos</label>
+                    <label><input type="radio" name="tiempo_disponible" value="Más de 30 minutos"> ⏰⏰⏰ Más de 30 minutos</label>
+                </div>
+            </section>
+
+            <!-- 10. Preferencias o restricciones -->
+            <section class="filter-section">
+                <h2>🚫 10. Preferencias o restricciones</h2>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="preferencias" value="Cualquiera" checked> Cualquiera</label>
+                    <label><input type="checkbox" name="preferencias" value="Sin gluten"> 🌾 Sin gluten</label>
+                    <label><input type="checkbox" name="preferencias" value="Bajo en azúcar"> 🍬 Bajo en azúcar</label>
+                    <label><input type="checkbox" name="preferencias" value="Sin lácteos"> 🥛 Sin lácteos</label>
+                    <label><input type="checkbox" name="preferencias" value="Vegetariano"> 🥬 Vegetariano</label>
+                    <label><input type="checkbox" name="preferencias" value="Vegano"> 🌱 Vegano</label>
+                    <label><input type="checkbox" name="preferencias" value="Alto en proteína"> 💪 Alto en proteína</label>
+                    <label><input type="checkbox" name="preferencias" value="Bajo en calorías"> 🔥 Bajo en calorías</label>
+                </div>
+            </section>
+
+            <!-- 11. Intensidad de sabor -->
+            <section class="filter-section">
+                <h2>🌶️ 11. Intensidad de sabor</h2>
+                <div class="radio-group">
+                    <label><input type="radio" name="intensidad_sabor" value="Cualquiera" checked> Cualquiera</label>
+                    <label><input type="radio" name="intensidad_sabor" value="Suave"> 😊 Suave</label>
+                    <label><input type="radio" name="intensidad_sabor" value="Medio"> 😐 Medio</label>
+                    <label><input type="radio" name="intensidad_sabor" value="Picante"> 🌶️ Picante</label>
+                    <label><input type="radio" name="intensidad_sabor" value="Muy picante"> 🔥 Muy picante</label>
+                </div>
+            </section>
+
+            <!-- 12. Tipo de ocasión -->
+            <section class="filter-section">
+                <h2>🎉 12. Tipo de ocasión</h2>
+                <div class="radio-group">
+                    <label><input type="radio" name="tipo_ocasion" value="Cualquiera" checked> Cualquiera</label>
+                    <label><input type="radio" name="tipo_ocasion" value="Comida del día"> 🍽️ Comida del día</label>
+                    <label><input type="radio" name="tipo_ocasion" value="Familiar"> 👨‍👩‍👧‍👦 Familiar</label>
+                    <label><input type="radio" name="tipo_ocasion" value="Para compartir"> 🤝 Para compartir</label>
+                    <label><input type="radio" name="tipo_ocasion" value="Snack rápido"> ⚡ Snack rápido</label>
+                    <label><input type="radio" name="tipo_ocasion" value="Para llevar"> 📦 Para llevar</label>
+                    <label><input type="radio" name="tipo_ocasion" value="Para ver películas"> 🎬 Para ver películas</label>
+                    <label><input type="radio" name="tipo_ocasion" value="Especial postres"> 🍰 Especial postres</label>
+                </div>
+            </section>
+
+            <!-- 13. Tipo de plato -->
+            <section class="filter-section">
+                <h2>🍴 13. Tipo de plato</h2>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="tipo_plato" value="Cualquiera" checked> Cualquiera</label>
+                    <label><input type="checkbox" name="tipo_plato" value="Entrada"> 🥗 Entrada</label>
+                    <label><input type="checkbox" name="tipo_plato" value="Plato fuerte"> 🍖 Plato fuerte</label>
+                    <label><input type="checkbox" name="tipo_plato" value="Acompañamiento"> 🥔 Acompañamiento</label>
+                    <label><input type="checkbox" name="tipo_plato" value="Ensalada simple"> 🥬 Ensalada simple</label>
+                    <label><input type="checkbox" name="tipo_plato" value="Sandwich o wrap"> 🥪 Sandwich o wrap</label>
+                    <label><input type="checkbox" name="tipo_plato" value="Pasta"> 🍝 Pasta</label>
+                    <label><input type="checkbox" name="tipo_plato" value="Sopa o crema"> 🍲 Sopa o crema</label>
+                    <label><input type="checkbox" name="tipo_plato" value="Postre"> 🍰 Postre</label>
+                    <label><input type="checkbox" name="tipo_plato" value="Bebida"> 🥤 Bebida</label>
+                </div>
+            </section>
+
+            <!-- 14. Nivel de habilidad culinaria -->
+            <section class="filter-section">
+                <h2>👨‍🍳 14. Nivel de habilidad culinaria</h2>
+                <div class="radio-group">
+                    <label><input type="radio" name="nivel_habilidad" value="Cualquiera" checked> Cualquiera</label>
+                    <label><input type="radio" name="nivel_habilidad" value="Principiante"> 🌱 Principiante</label>
+                    <label><input type="radio" name="nivel_habilidad" value="Intermedio"> 🎯 Intermedio</label>
+                    <label><input type="radio" name="nivel_habilidad" value="Avanzado"> ⭐ Avanzado</label>
+                </div>
+            </section>
+
+            <div class="button-container">
+                <button type="submit" class="btn-generate">✨ Generar Receta</button>
+            </div>
+        </form>
+
+        <!-- Resultado -->
+        <div id="resultSection" class="result-section hidden">
+            <h2>📋 Resumen de Selecciones</h2>
+            <div id="summary" class="summary"></div>
+            
+            <h2>🤖 Prompt para ChatGPT</h2>
+            <div class="prompt-container">
+                <textarea id="chatgptPrompt" readonly></textarea>
+                <button id="copyBtn" class="btn-copy">📋 Copiar al Portapapeles</button>
+            </div>
+
+            <div class="rating-section">
+                <h3>⭐ Califica esta selección</h3>
+                <div class="stars">
+                    <span class="star" data-rating="1">⭐</span>
+                    <span class="star" data-rating="2">⭐</span>
+                    <span class="star" data-rating="3">⭐</span>
+                    <span class="star" data-rating="4">⭐</span>
+                    <span class="star" data-rating="5">⭐</span>
+                </div>
+                <button id="saveBtn" class="btn-save">💾 Guardar Selección</button>
+            </div>
+
+            <div id="savedMessage" class="saved-message hidden">✅ Selección guardada exitosamente</div>
+        </div>
+
+        <!-- Historial -->
+        <div id="historySection" class="history-section">
+            <h2>📚 Historial de Selecciones</h2>
+            <div id="historyList" class="history-list"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

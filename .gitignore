@@ -1,0 +1,13 @@
+data/*
+utils/__pycache__/*
+scraper/__pycache__/*
+storage/__pycache__/*
+config/__pycache__/*
+tests/__pycache__/*
+notebooks/__pycache__/*
+webapp/__pycache__/*
+scraper/parsers/__pycache__/*
+__pycache__/*
+.env
+.DS_Store
+.pytest_cache/*

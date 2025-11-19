@@ -1,0 +1,1144 @@
+2025-11-17 15:39:37 - web_scraper - INFO - main:48 - Starting web scraping pipeline
+2025-11-17 15:39:37 - web_scraper - INFO - main:49 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 15:39:37 - web_scraper - INFO - main:55 - ============================================================
+2025-11-17 15:39:37 - web_scraper - INFO - main:56 - SCRAPING PAGE 1
+2025-11-17 15:39:37 - web_scraper - INFO - main:57 - ============================================================
+2025-11-17 15:39:37 - web_scraper - INFO - scrape_page:21 - Scraping page: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 15:39:37 - web_scraper - INFO - fetch_page:55 - Fetching URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 15:39:37 - web_scraper - WARNING - parse_products:44 - No products found with common selectors, trying fallback methods
+2025-11-17 15:39:37 - web_scraper - INFO - parse_products:54 - Extracted 0 products from page
+2025-11-17 15:39:37 - web_scraper - INFO - scrape_page:32 - Found 0 products on page
+2025-11-17 15:39:37 - web_scraper - INFO - scrape_page:36 - No next page found - reached last page
+2025-11-17 15:39:37 - web_scraper - INFO - main:99 - Scraping pipeline completed
+2025-11-17 15:41:04 - web_scraper - INFO - download_html:12 - Downloading HTML for inspection...
+2025-11-17 15:41:04 - web_scraper - INFO - download_html:13 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 15:41:04 - web_scraper - INFO - download_html:19 - Fetching page...
+2025-11-17 15:41:04 - web_scraper - INFO - fetch_page:55 - Fetching URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:28 - HTML saved to: C:\Users\Usuario\Documents\GitHub\web-scrapping super\page_html.html
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:29 - File size: 2447 bytes
+2025-11-17 15:41:05 - web_scraper - INFO - fetch_page:55 - Fetching URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:37 - Raw HTML saved to: C:\Users\Usuario\Documents\GitHub\web-scrapping super\page_html_raw.html
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:41 - 
+============================================================
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:42 - PAGE ANALYSIS
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:43 - ============================================================
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:44 - Title: Mi Super Fresh
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:45 - Total elements: 21
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:48 - 
+Searching for potential product containers...
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:58 - Found 0 unique div classes (sampling first 50 divs)
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:59 - Sample classes that might be products:
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:66 - 
+Searching for price patterns...
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:68 - Found 0 text elements containing price indicators
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:77 - 
+Searching for product links...
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:80 - Found 0 links that might be products
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:84 - Found 0 images on the page
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:87 - 
+Searching for pagination...
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:91 - Found 0 potential pagination elements
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:93 - 
+============================================================
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:94 - HTML files saved. Please inspect page_html.html to see the structure.
+2025-11-17 15:41:05 - web_scraper - INFO - download_html:95 - ============================================================
+2025-11-17 15:45:32 - web_scraper - INFO - download_html_with_browser:13 - Downloading HTML using browser automation...
+2025-11-17 15:45:32 - web_scraper - INFO - download_html_with_browser:14 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 15:45:33 - web_scraper - INFO - _start_browser:39 - Browser started successfully
+2025-11-17 15:45:33 - web_scraper - INFO - download_html_with_browser:21 - Fetching page with browser...
+2025-11-17 15:45:33 - web_scraper - INFO - fetch_html:72 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:33 - HTML saved to: C:\Users\Usuario\Documents\GitHub\web-scrapping super\page_html_browser.html
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:34 - File size: 2753 bytes
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:40 - Raw HTML saved to: C:\Users\Usuario\Documents\GitHub\web-scrapping super\page_html_browser_raw.html
+2025-11-17 15:45:39 - web_scraper - INFO - get_screenshot:122 - Screenshot saved to: page_screenshot.png
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:46 - 
+============================================================
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:47 - PAGE ANALYSIS
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:48 - ============================================================
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:49 - Title: Mi Super Fresh
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:50 - Total elements: 24
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:53 - 
+Searching for potential product containers...
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:63 - Found 0 unique div classes (sampling first 100 divs)
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:64 - Sample classes that might be products:
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:71 - 
+Searching for price patterns...
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:76 - Found 0 text elements containing price indicators
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:87 - 
+Searching for product links...
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:97 - Found 0 links that might be products
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:101 - Found 0 images on the page
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:104 - 
+Searching for pagination...
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:111 - Found 0 potential pagination elements
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:114 - 
+Searching for Flutter app elements...
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:118 - Found 0 Flutter-specific elements
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:120 - 
+============================================================
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:121 - HTML files saved. Please inspect page_html_browser.html to see the structure.
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:122 - Screenshot saved to page_screenshot.png
+2025-11-17 15:45:39 - web_scraper - INFO - download_html_with_browser:123 - ============================================================
+2025-11-17 15:45:39 - web_scraper - INFO - close:55 - Browser closed
+2025-11-17 15:46:16 - web_scraper - INFO - inspect_network_requests:13 - Inspecting network requests...
+2025-11-17 15:46:16 - web_scraper - INFO - inspect_network_requests:14 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 15:46:17 - web_scraper - INFO - inspect_network_requests:54 - Navigating to page...
+2025-11-17 15:46:18 - web_scraper - INFO - handle_response:46 - Found JSON response: https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true
+2025-11-17 15:46:19 - web_scraper - INFO - inspect_network_requests:58 - Waiting for app to load...
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:70 - 
+Network data saved to: C:\Users\Usuario\Documents\GitHub\web-scrapping super\network_requests.json
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:71 - Total requests: 11
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:72 - Total responses: 11
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:75 - 
+============================================================
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:76 - POTENTIAL API ENDPOINTS
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:77 - ============================================================
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:88 -   - https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225 (Status: 200, Type: text/html)
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:88 -   - https://maps.googleapis.com/maps/api/js?key=AIzaSyAR9iq-6jAbN01yhTgxt0qyuFyWvihNPZY (Status: 200, Type: text/javascript; charset=UTF-8)
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:88 -   - https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true (Status: 200, Type: application/json; charset=UTF-8)
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:90 -     Body preview: {}...
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:88 -   - https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.misuperfresh.com.gt%2Fcatalog%2F9&scrsrc=www.googletagmanager.com&rnd=2015124752.1763415978&dt=Mi%20Super%20Fresh&auid=126707056.1763415978&navt=n&npa=0&gtm=45He5bd0v9221382848za200zd9221382848xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105322304~105391252~115583767~115616985~115938465~115938468~116217636~116217638&tft=1763415978281&tfd=641&apve=1&apvf=f (Status: 200, Type: )
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:88 -   - https://analytics.google.com/g/collect?v=2&tid=G-VR9YJEWRCY&gtm=45je5bd0v886323355z89221382848za200zb9221382848zd9221382848&_p=1763415977856&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1806052432.1763415979&ecid=1087042751&ul=es-gt&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=a&_s=1&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391252~115583767~115706422~115938465~115938469~116217636~116217638~116476004&sid=1763415978&sct=1&seg=0&dl=https%3A%2F%2Fwww.misuperfresh.com.gt%2Fcatalog%2F9%3FminPrice%3D0%26maxPrice%3D225&dt=Mi%20Super%20Fresh&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=957 (Status: 204, Type: text/plain)
+2025-11-17 15:46:29 - web_scraper - INFO - handle_response:46 - Found JSON response: https://www.misuperfresh.com.gt/assets/FontManifest.json
+2025-11-17 15:46:29 - web_scraper - INFO - handle_response:46 - Found JSON response: https://www.misuperfresh.com.gt/version.json?cachebuster=1763415982286
+2025-11-17 15:46:29 - web_scraper - INFO - handle_response:46 - Found JSON response: https://www.misuperfresh.com.gt/version.json?cachebuster=1763415982286
+2025-11-17 15:46:29 - web_scraper - INFO - handle_response:46 - Found JSON response: https://www.misuperfresh.com.gt/assets/AssetManifest.bin.json
+2025-11-17 15:46:29 - web_scraper - INFO - handle_response:46 - Found JSON response: https://msf-api.gta.com.gt/api/client/loyalty/program/points
+2025-11-17 15:46:29 - web_scraper - INFO - handle_response:46 - Found JSON response: https://msf-api.gta.com.gt/api/catalog/subcategories
+2025-11-17 15:46:29 - web_scraper - INFO - handle_response:46 - Found JSON response: https://msf-api.gta.com.gt/api/catalog/categories
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:104 - 
+Final HTML saved to: C:\Users\Usuario\Documents\GitHub\web-scrapping super\page_after_wait.html
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:105 - HTML size: 5391 bytes
+2025-11-17 15:46:29 - web_scraper - INFO - handle_response:46 - Found JSON response: https://www.misuperfresh.com.gt/assets/assets/lottie/Animation.json
+2025-11-17 15:46:29 - web_scraper - INFO - handle_response:46 - Found JSON response: https://msf-api.gta.com.gt/api/resources/version
+2025-11-17 15:46:29 - web_scraper - INFO - handle_response:46 - Found JSON response: https://msf-api.gta.com.gt/api/products
+2025-11-17 15:46:29 - web_scraper - INFO - handle_response:46 - Found JSON response: https://msf-api.gta.com.gt/api/catalog/subcategory
+2025-11-17 15:46:29 - web_scraper - INFO - inspect_network_requests:109 - Screenshot saved to: page_final_screenshot.png
+2025-11-17 15:47:00 - web_scraper - INFO - <module>:13 - Testing API endpoint: https://msf-api.gta.com.gt/api/products
+2025-11-17 15:47:01 - web_scraper - INFO - <module>:30 - Status Code: 405
+2025-11-17 15:47:01 - web_scraper - INFO - <module>:31 - Content-Type: None
+2025-11-17 15:47:01 - web_scraper - ERROR - <module>:55 - Request failed with status 405
+2025-11-17 15:47:01 - web_scraper - INFO - <module>:56 - Response text: ...
+2025-11-17 15:47:01 - web_scraper - INFO - <module>:63 - 
+Testing subcategory endpoint: https://msf-api.gta.com.gt/api/catalog/subcategory
+2025-11-17 15:47:01 - web_scraper - INFO - <module>:73 - Status Code: 405
+2025-11-17 15:47:19 - web_scraper - INFO - capture_api_responses:13 - Capturing API responses...
+2025-11-17 15:47:19 - web_scraper - INFO - capture_api_responses:14 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 15:47:23 - web_scraper - INFO - capture_api_responses:50 - Navigating to page...
+2025-11-17 15:47:24 - web_scraper - INFO - capture_api_responses:54 - Waiting for API calls...
+2025-11-17 15:47:39 - web_scraper - WARNING - capture_api_responses:73 - No API responses captured
+2025-11-17 15:47:39 - web_scraper - WARNING - handle_response:45 - Could not parse response from https://msf-api.gta.com.gt/api/catalog/categories: Response.json: Target page, context or browser has been closed
+2025-11-17 15:47:39 - web_scraper - WARNING - handle_response:45 - Could not parse response from https://msf-api.gta.com.gt/api/catalog/subcategories: Response.json: Target page, context or browser has been closed
+2025-11-17 15:47:39 - web_scraper - WARNING - handle_response:45 - Could not parse response from https://msf-api.gta.com.gt/api/client/loyalty/program/points: Response.json: Target page, context or browser has been closed
+2025-11-17 15:47:39 - web_scraper - WARNING - handle_response:45 - Could not parse response from https://msf-api.gta.com.gt/api/products: Response.json: Target page, context or browser has been closed
+2025-11-17 15:47:51 - web_scraper - INFO - capture_api_responses:13 - Capturing API responses...
+2025-11-17 15:47:51 - web_scraper - INFO - capture_api_responses:14 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 15:47:52 - web_scraper - INFO - capture_api_responses:33 - Navigating to page...
+2025-11-17 15:47:54 - web_scraper - INFO - capture_api_responses:37 - Waiting for API calls...
+2025-11-17 15:48:09 - web_scraper - INFO - capture_api_responses:42 - Processing 0 API responses...
+2025-11-17 15:48:09 - web_scraper - WARNING - capture_api_responses:85 - No API responses captured
+2025-11-17 15:57:11 - web_scraper - INFO - analyze_page_structure:14 - ============================================================
+2025-11-17 15:57:11 - web_scraper - INFO - analyze_page_structure:15 - PAGE STRUCTURE ANALYSIS
+2025-11-17 15:57:11 - web_scraper - INFO - analyze_page_structure:16 - ============================================================
+2025-11-17 15:57:11 - web_scraper - INFO - analyze_page_structure:17 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 15:57:15 - web_scraper - INFO - _start_browser:39 - Browser started successfully
+2025-11-17 15:57:15 - web_scraper - INFO - analyze_page_structure:21 - Loading page...
+2025-11-17 15:57:15 - web_scraper - INFO - fetch_html:72 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 15:57:17 - web_scraper - INFO - fetch_html:76 - Waiting for Flutter app to render...
+2025-11-17 15:57:37 - web_scraper - WARNING - fetch_html:84 - Flutter elements not found, waiting for any content...
+2025-11-17 15:58:02 - web_scraper - WARNING - fetch_html:98 - Content check timeout, proceeding anyway...
+2025-11-17 15:58:02 - web_scraper - INFO - fetch_html:114 - Body text length: 0 characters
+2025-11-17 15:58:02 - web_scraper - INFO - get_screenshot:154 - Screenshot saved to: debug_screenshot.png
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:26 - Screenshot saved to: debug_screenshot.png
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:38 - HTML saved to: C:\Users\Usuario\Documents\GitHub\web-scrapping super\debug_page.html
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:41 - 
+============================================================
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:42 - STRUCTURE ANALYSIS
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:43 - ============================================================
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:46 - 
+1. Flutter Elements:
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:48 -    Found 1 Flutter-specific elements
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:50 -    - flt-glass-pane: []
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:53 - 
+2. Price Indicators:
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:70 - 
+3. Div Elements Analysis:
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:72 -    Total divs: 0
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:84 -    Unique div class combinations: 0
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:96 - 
+4. Data Attributes:
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:105 -    Found 0 unique data attributes
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:110 - 
+5. Images:
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:112 -    Total images: 0
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:121 - 
+6. Links:
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:123 -    Total links: 0
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:133 - 
+7. Repeating Patterns (Potential Products):
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:156 - 
+8. Text Content Analysis:
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:158 -    Total text length: 43 characters
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:162 -    Non-empty lines: 1
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:165 -    Sample text lines:
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:168 -    - Mi Super Fresh
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:171 - 
+============================================================
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:172 - SELECTOR SUGGESTIONS
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:173 - ============================================================
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:202 - 
+Suggestions saved to: C:\Users\Usuario\Documents\GitHub\web-scrapping super\selector_suggestions.json
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:204 - 
+============================================================
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:205 - ANALYSIS COMPLETE
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:206 - ============================================================
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:207 - 
+Next steps:
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:208 - 1. Check debug_screenshot.png to see the visual structure
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:209 - 2. Open debug_page.html in a browser to inspect the DOM
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:210 - 3. Review selector_suggestions.json for potential selectors
+2025-11-17 15:58:02 - web_scraper - INFO - analyze_page_structure:211 - 4. Test the suggested selectors in the parser
+2025-11-17 15:58:02 - web_scraper - INFO - close:55 - Browser closed
+2025-11-17 16:09:57 - web_scraper - INFO - main:73 - Starting web scraping pipeline
+2025-11-17 16:09:57 - web_scraper - INFO - main:74 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 16:09:57 - web_scraper - INFO - main:77 - Attempting to scrape via API interception...
+2025-11-17 16:09:59 - web_scraper - INFO - _start_browser:35 - Browser started for API interception
+2025-11-17 16:09:59 - web_scraper - INFO - scrape_page_api:23 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 16:09:59 - web_scraper - INFO - scrape:102 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 16:10:04 - web_scraper - INFO - scrape:106 - Waiting 20 seconds for API calls...
+2025-11-17 16:10:24 - web_scraper - WARNING - main:100 - API scraper found no products, falling back to browser scraper...
+2025-11-17 16:10:24 - web_scraper - WARNING - handle_response:81 - Could not parse JSON from https://msf-api.gta.com.gt/api/client/loyalty/program/points: Response.json: Target page, context or browser has been closed
+2025-11-17 16:10:24 - web_scraper - WARNING - handle_response:81 - Could not parse JSON from https://msf-api.gta.com.gt/api/catalog/categories: Response.json: Target page, context or browser has been closed
+2025-11-17 16:10:24 - web_scraper - WARNING - handle_response:81 - Could not parse JSON from https://msf-api.gta.com.gt/api/catalog/subcategories: Response.json: Target page, context or browser has been closed
+2025-11-17 16:10:24 - web_scraper - WARNING - handle_response:81 - Could not parse JSON from https://msf-api.gta.com.gt/api/resources/version: Response.json: Target page, context or browser has been closed
+2025-11-17 16:10:24 - web_scraper - WARNING - handle_response:81 - Could not parse JSON from https://msf-api.gta.com.gt/api/products: Response.json: Target page, context or browser has been closed
+2025-11-17 16:10:24 - web_scraper - WARNING - handle_response:81 - Could not parse JSON from https://msf-api.gta.com.gt/api/catalog/subcategory: Response.json: Target page, context or browser has been closed
+2025-11-17 16:10:24 - web_scraper - INFO - close:51 - Browser closed
+2025-11-17 16:10:24 - web_scraper - INFO - main:105 - Using browser scraper (may not work for Flutter canvas rendering)...
+2025-11-17 16:10:25 - web_scraper - INFO - _start_browser:39 - Browser started successfully
+2025-11-17 16:10:25 - web_scraper - INFO - main:108 - ============================================================
+2025-11-17 16:10:25 - web_scraper - INFO - main:109 - SCRAPING PAGE 1
+2025-11-17 16:10:25 - web_scraper - INFO - main:110 - ============================================================
+2025-11-17 16:10:25 - web_scraper - INFO - scrape_page:39 - Scraping page: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 16:10:25 - web_scraper - INFO - fetch_html:72 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 16:10:26 - web_scraper - INFO - fetch_html:76 - Waiting for Flutter app to render...
+2025-11-17 16:10:41 - web_scraper - WARNING - fetch_html:84 - Flutter elements not found, waiting for any content...
+2025-11-17 16:11:01 - web_scraper - WARNING - fetch_html:98 - Content check timeout, proceeding anyway...
+2025-11-17 16:11:01 - web_scraper - INFO - fetch_html:114 - Body text length: 0 characters
+2025-11-17 16:11:01 - web_scraper - WARNING - parse_products:63 - No products found with common selectors, trying fallback methods
+2025-11-17 16:11:01 - web_scraper - INFO - parse_products:97 - Extracted 0 products from page
+2025-11-17 16:11:01 - web_scraper - WARNING - scrape_page:48 - No products found. Re-running with debug mode enabled...
+2025-11-17 16:11:01 - web_scraper - WARNING - parse_products:63 - No products found with common selectors, trying fallback methods
+2025-11-17 16:11:01 - web_scraper - INFO - parse_products:97 - Extracted 0 products from page
+2025-11-17 16:11:01 - web_scraper - INFO - scrape_page:57 - Found 0 products on page
+2025-11-17 16:11:01 - web_scraper - INFO - scrape_page:61 - No next page found - reached last page
+2025-11-17 16:11:01 - web_scraper - INFO - close:55 - Browser closed
+2025-11-17 16:11:01 - web_scraper - INFO - main:152 - Scraping pipeline completed
+2025-11-17 16:14:42 - web_scraper - INFO - main:73 - Starting web scraping pipeline
+2025-11-17 16:14:42 - web_scraper - INFO - main:74 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 16:14:42 - web_scraper - INFO - main:77 - Attempting to scrape via API interception...
+2025-11-17 16:14:45 - web_scraper - INFO - _start_browser:35 - Browser started for API interception
+2025-11-17 16:14:45 - web_scraper - INFO - scrape_page_api:23 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 16:14:45 - web_scraper - INFO - scrape:105 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 16:14:47 - web_scraper - INFO - scrape:109 - Waiting 20 seconds for API calls...
+2025-11-17 16:15:07 - web_scraper - WARNING - main:100 - API scraper found no products, falling back to browser scraper...
+2025-11-17 16:15:07 - web_scraper - WARNING - handle_response:84 - Could not parse JSON from https://msf-api.gta.com.gt/api/client/loyalty/program/points: Response.body: Target page, context or browser has been closed
+2025-11-17 16:15:07 - web_scraper - WARNING - handle_response:84 - Could not parse JSON from https://msf-api.gta.com.gt/api/catalog/categories: Response.body: Target page, context or browser has been closed
+2025-11-17 16:15:07 - web_scraper - WARNING - handle_response:84 - Could not parse JSON from https://msf-api.gta.com.gt/api/catalog/subcategories: Response.body: Target page, context or browser has been closed
+2025-11-17 16:15:07 - web_scraper - WARNING - handle_response:84 - Could not parse JSON from https://msf-api.gta.com.gt/api/resources/version: Response.body: Target page, context or browser has been closed
+2025-11-17 16:15:07 - web_scraper - WARNING - handle_response:84 - Could not parse JSON from https://msf-api.gta.com.gt/api/products: Response.body: Target page, context or browser has been closed
+2025-11-17 16:15:07 - web_scraper - WARNING - handle_response:84 - Could not parse JSON from https://msf-api.gta.com.gt/api/catalog/subcategory: Response.body: Target page, context or browser has been closed
+2025-11-17 16:15:07 - web_scraper - INFO - close:51 - Browser closed
+2025-11-17 16:15:07 - web_scraper - INFO - main:105 - Using browser scraper (may not work for Flutter canvas rendering)...
+2025-11-17 16:15:08 - web_scraper - INFO - _start_browser:39 - Browser started successfully
+2025-11-17 16:15:08 - web_scraper - INFO - main:108 - ============================================================
+2025-11-17 16:15:08 - web_scraper - INFO - main:109 - SCRAPING PAGE 1
+2025-11-17 16:15:08 - web_scraper - INFO - main:110 - ============================================================
+2025-11-17 16:15:08 - web_scraper - INFO - scrape_page:39 - Scraping page: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 16:15:08 - web_scraper - INFO - fetch_html:72 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-17 16:15:09 - web_scraper - INFO - fetch_html:76 - Waiting for Flutter app to render...
+2025-11-17 16:15:24 - web_scraper - WARNING - fetch_html:84 - Flutter elements not found, waiting for any content...
+2025-11-17 16:15:44 - web_scraper - WARNING - fetch_html:98 - Content check timeout, proceeding anyway...
+2025-11-17 16:15:44 - web_scraper - INFO - fetch_html:114 - Body text length: 0 characters
+2025-11-17 16:15:44 - web_scraper - WARNING - parse_products:63 - No products found with common selectors, trying fallback methods
+2025-11-17 16:15:44 - web_scraper - INFO - parse_products:97 - Extracted 0 products from page
+2025-11-17 16:15:44 - web_scraper - WARNING - scrape_page:48 - No products found. Re-running with debug mode enabled...
+2025-11-17 16:15:44 - web_scraper - WARNING - parse_products:63 - No products found with common selectors, trying fallback methods
+2025-11-17 16:15:44 - web_scraper - INFO - parse_products:97 - Extracted 0 products from page
+2025-11-17 16:15:44 - web_scraper - INFO - scrape_page:57 - Found 0 products on page
+2025-11-17 16:15:44 - web_scraper - INFO - scrape_page:61 - No next page found - reached last page
+2025-11-17 16:15:44 - web_scraper - INFO - close:55 - Browser closed
+2025-11-17 16:15:44 - web_scraper - INFO - main:152 - Scraping pipeline completed
+2025-11-18 00:15:23 - web_scraper - INFO - main:73 - Starting web scraping pipeline
+2025-11-18 00:15:23 - web_scraper - INFO - main:74 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:15:23 - web_scraper - INFO - main:77 - Attempting to scrape via API interception...
+2025-11-18 00:15:29 - web_scraper - INFO - _start_browser:35 - Browser started for API interception
+2025-11-18 00:15:29 - web_scraper - INFO - scrape_page_api:23 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:15:29 - web_scraper - INFO - scrape:105 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:15:29 - web_scraper - ERROR - scrape:175 - Error scraping via API: 'Page' object has no attribute 'wait_for_response'
+Traceback (most recent call last):
+  File "c:\Users\Usuario\Documents\GitHub\web-scrapping super\scraper\api_scraper.py", line 108, in scrape
+    products_promise = self.page.wait_for_response(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'wait_for_response'
+2025-11-18 00:15:29 - web_scraper - WARNING - main:100 - API scraper found no products, falling back to browser scraper...
+2025-11-18 00:15:29 - web_scraper - INFO - close:51 - Browser closed
+2025-11-18 00:15:29 - web_scraper - INFO - main:105 - Using browser scraper (may not work for Flutter canvas rendering)...
+2025-11-18 00:15:30 - web_scraper - INFO - _start_browser:39 - Browser started successfully
+2025-11-18 00:15:30 - web_scraper - INFO - main:108 - ============================================================
+2025-11-18 00:15:30 - web_scraper - INFO - main:109 - SCRAPING PAGE 1
+2025-11-18 00:15:30 - web_scraper - INFO - main:110 - ============================================================
+2025-11-18 00:15:30 - web_scraper - INFO - scrape_page:39 - Scraping page: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:15:30 - web_scraper - INFO - fetch_html:72 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:15:34 - web_scraper - INFO - fetch_html:76 - Waiting for Flutter app to render...
+2025-11-18 00:15:49 - web_scraper - WARNING - fetch_html:84 - Flutter elements not found, waiting for any content...
+2025-11-18 00:16:09 - web_scraper - WARNING - fetch_html:98 - Content check timeout, proceeding anyway...
+2025-11-18 00:16:09 - web_scraper - INFO - fetch_html:114 - Body text length: 0 characters
+2025-11-18 00:16:09 - web_scraper - WARNING - parse_products:63 - No products found with common selectors, trying fallback methods
+2025-11-18 00:16:09 - web_scraper - INFO - parse_products:97 - Extracted 0 products from page
+2025-11-18 00:16:09 - web_scraper - WARNING - scrape_page:48 - No products found. Re-running with debug mode enabled...
+2025-11-18 00:16:09 - web_scraper - WARNING - parse_products:63 - No products found with common selectors, trying fallback methods
+2025-11-18 00:16:09 - web_scraper - INFO - parse_products:97 - Extracted 0 products from page
+2025-11-18 00:16:09 - web_scraper - INFO - scrape_page:57 - Found 0 products on page
+2025-11-18 00:16:09 - web_scraper - INFO - scrape_page:61 - No next page found - reached last page
+2025-11-18 00:16:09 - web_scraper - INFO - close:55 - Browser closed
+2025-11-18 00:16:09 - web_scraper - INFO - main:152 - Scraping pipeline completed
+2025-11-18 00:18:12 - web_scraper - INFO - main:73 - Starting web scraping pipeline
+2025-11-18 00:18:12 - web_scraper - INFO - main:74 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:18:12 - web_scraper - INFO - main:77 - Attempting to scrape via API interception...
+2025-11-18 00:18:16 - web_scraper - INFO - _start_browser:35 - Browser started for API interception
+2025-11-18 00:18:16 - web_scraper - INFO - scrape_page_api:23 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:18:16 - web_scraper - INFO - scrape:113 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:18:17 - web_scraper - INFO - scrape:117 - Waiting 20 seconds for API calls...
+2025-11-18 00:18:37 - web_scraper - INFO - scrape:124 - No responses captured yet, waiting for API calls...
+2025-11-18 00:18:37 - web_scraper - INFO - scrape:132 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:18:37 - web_scraper - INFO - scrape:141 - Successfully captured products API response
+2025-11-18 00:18:37 - web_scraper - INFO - scrape:158 - Found products data: dict
+2025-11-18 00:18:37 - web_scraper - INFO - scrape:161 - Found subcategory data
+2025-11-18 00:18:37 - web_scraper - INFO - scrape:158 - Found products data: dict
+2025-11-18 00:18:37 - web_scraper - INFO - _parse_api_products:225 - Parsed 0 products from API data
+2025-11-18 00:18:37 - web_scraper - WARNING - main:100 - API scraper found no products, falling back to browser scraper...
+2025-11-18 00:18:37 - web_scraper - INFO - close:51 - Browser closed
+2025-11-18 00:18:37 - web_scraper - INFO - main:105 - Using browser scraper (may not work for Flutter canvas rendering)...
+2025-11-18 00:18:38 - web_scraper - INFO - _start_browser:39 - Browser started successfully
+2025-11-18 00:18:38 - web_scraper - INFO - main:108 - ============================================================
+2025-11-18 00:18:38 - web_scraper - INFO - main:109 - SCRAPING PAGE 1
+2025-11-18 00:18:38 - web_scraper - INFO - main:110 - ============================================================
+2025-11-18 00:18:38 - web_scraper - INFO - scrape_page:39 - Scraping page: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:18:38 - web_scraper - INFO - fetch_html:72 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:18:40 - web_scraper - INFO - fetch_html:76 - Waiting for Flutter app to render...
+2025-11-18 00:18:55 - web_scraper - WARNING - fetch_html:84 - Flutter elements not found, waiting for any content...
+2025-11-18 00:19:15 - web_scraper - WARNING - fetch_html:98 - Content check timeout, proceeding anyway...
+2025-11-18 00:19:15 - web_scraper - INFO - fetch_html:114 - Body text length: 0 characters
+2025-11-18 00:19:15 - web_scraper - WARNING - parse_products:63 - No products found with common selectors, trying fallback methods
+2025-11-18 00:19:15 - web_scraper - INFO - parse_products:97 - Extracted 0 products from page
+2025-11-18 00:19:15 - web_scraper - WARNING - scrape_page:48 - No products found. Re-running with debug mode enabled...
+2025-11-18 00:19:15 - web_scraper - WARNING - parse_products:63 - No products found with common selectors, trying fallback methods
+2025-11-18 00:19:15 - web_scraper - INFO - parse_products:97 - Extracted 0 products from page
+2025-11-18 00:19:15 - web_scraper - INFO - scrape_page:57 - Found 0 products on page
+2025-11-18 00:19:15 - web_scraper - INFO - scrape_page:61 - No next page found - reached last page
+2025-11-18 00:19:15 - web_scraper - INFO - close:55 - Browser closed
+2025-11-18 00:19:15 - web_scraper - INFO - main:152 - Scraping pipeline completed
+2025-11-18 00:20:12 - web_scraper - INFO - main:73 - Starting web scraping pipeline
+2025-11-18 00:20:12 - web_scraper - INFO - main:74 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:20:12 - web_scraper - INFO - main:77 - Attempting to scrape via API interception...
+2025-11-18 00:20:12 - web_scraper - INFO - _start_browser:35 - Browser started for API interception
+2025-11-18 00:20:12 - web_scraper - INFO - scrape_page_api:23 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:20:12 - web_scraper - INFO - scrape:113 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:20:14 - web_scraper - INFO - scrape:117 - Waiting 20 seconds for API calls...
+2025-11-18 00:20:34 - web_scraper - INFO - scrape:124 - No responses captured yet, waiting for API calls...
+2025-11-18 00:20:34 - web_scraper - INFO - handle_response:78 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 00:20:34 - web_scraper - INFO - handle_response:84 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 00:20:34 - web_scraper - INFO - handle_response:78 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 00:20:34 - web_scraper - INFO - handle_response:84 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 00:20:34 - web_scraper - INFO - handle_response:78 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 00:20:34 - web_scraper - INFO - handle_response:84 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 00:20:34 - web_scraper - INFO - handle_response:78 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 00:20:34 - web_scraper - INFO - handle_response:84 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 00:20:34 - web_scraper - INFO - handle_response:78 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 00:20:34 - web_scraper - INFO - handle_response:84 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:20:34 - web_scraper - INFO - scrape:132 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:20:34 - web_scraper - INFO - scrape:141 - Successfully captured products API response
+2025-11-18 00:20:34 - web_scraper - INFO - scrape:158 - Found products data: dict
+2025-11-18 00:20:34 - web_scraper - INFO - scrape:158 - Found products data: dict
+2025-11-18 00:20:34 - web_scraper - INFO - _parse_api_products:213 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:20:34 - web_scraper - INFO - _parse_api_products:218 - Found key 'products' with type: <class 'list'>
+2025-11-18 00:20:34 - web_scraper - INFO - _parse_api_products:221 -   Processing 1 items from 'products'
+2025-11-18 00:20:34 - web_scraper - INFO - _parse_api_products:243 - Parsed 1 products from API data
+2025-11-18 00:20:34 - web_scraper - INFO - main:83 - Successfully scraped 1 products via API
+2025-11-18 00:20:34 - web_scraper - INFO - main:97 - Scraping pipeline completed (API method)
+2025-11-18 00:20:34 - web_scraper - INFO - handle_response:78 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategory (Status: 200)
+2025-11-18 00:20:34 - web_scraper - INFO - handle_response:84 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:21:56 - web_scraper - INFO - main:73 - Starting web scraping pipeline
+2025-11-18 00:21:56 - web_scraper - INFO - main:74 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:21:56 - web_scraper - INFO - main:77 - Attempting to scrape via API interception...
+2025-11-18 00:21:59 - web_scraper - INFO - _start_browser:35 - Browser started for API interception
+2025-11-18 00:21:59 - web_scraper - INFO - scrape_page_api:23 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:21:59 - web_scraper - INFO - scrape:113 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:22:01 - web_scraper - WARNING - scrape:148 - Did not receive products API response: 'EventContextManager' object has no attribute 'value'
+2025-11-18 00:22:01 - web_scraper - INFO - scrape:150 - Waiting 20 seconds for API calls...
+2025-11-18 00:22:21 - web_scraper - WARNING - main:100 - API scraper found no products, falling back to browser scraper...
+2025-11-18 00:22:21 - web_scraper - WARNING - handle_response:86 - Could not parse JSON from https://msf-api.gta.com.gt/api/resources/version: Response.json: Target page, context or browser has been closed
+2025-11-18 00:22:21 - web_scraper - WARNING - handle_response:86 - Could not parse JSON from https://msf-api.gta.com.gt/api/client/loyalty/program/points: Response.json: Target page, context or browser has been closed
+2025-11-18 00:22:21 - web_scraper - WARNING - handle_response:86 - Could not parse JSON from https://msf-api.gta.com.gt/api/catalog/categories: Response.json: Target page, context or browser has been closed
+2025-11-18 00:22:21 - web_scraper - WARNING - handle_response:86 - Could not parse JSON from https://msf-api.gta.com.gt/api/catalog/subcategories: Response.json: Target page, context or browser has been closed
+2025-11-18 00:22:21 - web_scraper - WARNING - handle_response:86 - Could not parse JSON from https://msf-api.gta.com.gt/api/products: Response.json: Target page, context or browser has been closed
+2025-11-18 00:22:21 - web_scraper - WARNING - handle_response:86 - Could not parse JSON from https://msf-api.gta.com.gt/api/catalog/subcategory: Response.json: Target page, context or browser has been closed
+2025-11-18 00:22:21 - web_scraper - INFO - close:51 - Browser closed
+2025-11-18 00:22:21 - web_scraper - INFO - main:105 - Using browser scraper (may not work for Flutter canvas rendering)...
+2025-11-18 00:22:21 - web_scraper - INFO - _start_browser:39 - Browser started successfully
+2025-11-18 00:22:21 - web_scraper - INFO - main:108 - ============================================================
+2025-11-18 00:22:21 - web_scraper - INFO - main:109 - SCRAPING PAGE 1
+2025-11-18 00:22:21 - web_scraper - INFO - main:110 - ============================================================
+2025-11-18 00:22:21 - web_scraper - INFO - scrape_page:39 - Scraping page: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:22:21 - web_scraper - INFO - fetch_html:72 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:22:23 - web_scraper - INFO - fetch_html:76 - Waiting for Flutter app to render...
+2025-11-18 00:22:38 - web_scraper - WARNING - fetch_html:84 - Flutter elements not found, waiting for any content...
+2025-11-18 00:22:58 - web_scraper - WARNING - fetch_html:98 - Content check timeout, proceeding anyway...
+2025-11-18 00:22:58 - web_scraper - INFO - fetch_html:114 - Body text length: 0 characters
+2025-11-18 00:22:58 - web_scraper - WARNING - parse_products:63 - No products found with common selectors, trying fallback methods
+2025-11-18 00:22:58 - web_scraper - INFO - parse_products:97 - Extracted 0 products from page
+2025-11-18 00:22:58 - web_scraper - WARNING - scrape_page:48 - No products found. Re-running with debug mode enabled...
+2025-11-18 00:22:58 - web_scraper - WARNING - parse_products:63 - No products found with common selectors, trying fallback methods
+2025-11-18 00:22:58 - web_scraper - INFO - parse_products:97 - Extracted 0 products from page
+2025-11-18 00:22:58 - web_scraper - INFO - scrape_page:57 - Found 0 products on page
+2025-11-18 00:22:58 - web_scraper - INFO - scrape_page:61 - No next page found - reached last page
+2025-11-18 00:22:58 - web_scraper - INFO - close:55 - Browser closed
+2025-11-18 00:22:58 - web_scraper - INFO - main:152 - Scraping pipeline completed
+2025-11-18 00:23:33 - web_scraper - INFO - main:73 - Starting web scraping pipeline
+2025-11-18 00:23:33 - web_scraper - INFO - main:74 - Target URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:23:33 - web_scraper - INFO - main:77 - Attempting to scrape via API interception...
+2025-11-18 00:23:34 - web_scraper - INFO - _start_browser:35 - Browser started for API interception
+2025-11-18 00:23:34 - web_scraper - INFO - scrape_page_api:23 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:23:34 - web_scraper - INFO - scrape:113 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:23:38 - web_scraper - INFO - handle_response:78 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 00:23:38 - web_scraper - INFO - handle_response:84 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 00:23:38 - web_scraper - INFO - handle_response:78 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 00:23:38 - web_scraper - INFO - handle_response:84 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 00:23:38 - web_scraper - INFO - handle_response:78 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 00:23:38 - web_scraper - INFO - handle_response:84 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 00:23:39 - web_scraper - INFO - handle_response:78 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 00:23:39 - web_scraper - INFO - handle_response:84 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:23:39 - web_scraper - INFO - scrape:138 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:23:39 - web_scraper - INFO - handle_response:78 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 00:23:39 - web_scraper - INFO - handle_response:84 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 00:23:39 - web_scraper - INFO - scrape:149 - Successfully captured products API response
+2025-11-18 00:23:39 - web_scraper - INFO - scrape:153 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:23:39 - web_scraper - INFO - scrape:175 - Found products data: dict
+2025-11-18 00:23:39 - web_scraper - INFO - scrape:175 - Found products data: dict
+2025-11-18 00:23:39 - web_scraper - INFO - _parse_api_products:230 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:23:39 - web_scraper - INFO - _parse_api_products:235 - Found key 'products' with type: <class 'list'>
+2025-11-18 00:23:39 - web_scraper - INFO - _parse_api_products:238 -   Processing 1 items from 'products'
+2025-11-18 00:23:39 - web_scraper - INFO - _parse_api_products:260 - Parsed 1 products from API data
+2025-11-18 00:23:39 - web_scraper - INFO - main:83 - Successfully scraped 1 products via API
+2025-11-18 00:23:39 - web_scraper - INFO - main:97 - Scraping pipeline completed (API method)
+2025-11-18 00:23:39 - web_scraper - INFO - close:51 - Browser closed
+2025-11-18 00:27:42 - web_scraper - INFO - main:162 - Starting web scraping pipeline
+2025-11-18 00:27:42 - web_scraper - INFO - main:171 - Scraping 1 URL(s)
+2025-11-18 00:27:42 - web_scraper - INFO - main:173 -   1. https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:27:42 - web_scraper - INFO - main:176 - 
+Attempting to scrape via API interception...
+2025-11-18 00:27:42 - web_scraper - INFO - scrape_multiple_urls:131 - Scraping 1 URLs using API scraper...
+2025-11-18 00:27:45 - web_scraper - INFO - _start_browser:36 - Browser started for API interception
+2025-11-18 00:27:45 - web_scraper - INFO - scrape_multiple_urls:134 - 
+============================================================
+2025-11-18 00:27:45 - web_scraper - INFO - scrape_multiple_urls:135 - URL 1/1: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:27:45 - web_scraper - INFO - scrape_multiple_urls:136 - ============================================================
+2025-11-18 00:27:45 - web_scraper - INFO - scrape_all_pages_api:89 - Starting pagination scraping from: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:27:45 - web_scraper - INFO - scrape_all_pages_api:92 - ============================================================
+2025-11-18 00:27:45 - web_scraper - INFO - scrape_all_pages_api:93 - SCRAPING PAGE 1
+2025-11-18 00:27:45 - web_scraper - INFO - scrape_all_pages_api:94 - ============================================================
+2025-11-18 00:27:45 - web_scraper - INFO - scrape_page_api:25 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:27:45 - web_scraper - INFO - scrape:119 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:27:50 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 00:27:50 - web_scraper - INFO - handle_response:90 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 00:27:51 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 00:27:51 - web_scraper - INFO - handle_response:90 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 00:27:51 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 00:27:51 - web_scraper - INFO - handle_response:90 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 00:27:51 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 00:27:51 - web_scraper - INFO - handle_response:90 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 00:27:51 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 00:27:51 - web_scraper - INFO - handle_response:90 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:27:51 - web_scraper - INFO - scrape:144 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:27:51 - web_scraper - INFO - scrape:155 - Successfully captured products API response
+2025-11-18 00:27:51 - web_scraper - INFO - scrape:159 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:27:51 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:27:51 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:27:51 - web_scraper - INFO - _parse_api_products:269 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:27:51 - web_scraper - INFO - _parse_api_products:274 - Found key 'products' with type: <class 'list'>
+2025-11-18 00:27:51 - web_scraper - INFO - _parse_api_products:277 -   Processing 1 items from 'products'
+2025-11-18 00:27:51 - web_scraper - INFO - _parse_api_products:299 - Parsed 1 products from API data
+2025-11-18 00:27:51 - web_scraper - INFO - scrape_all_pages_api:100 - Page 1: Found 1 products (Total so far: 1)
+2025-11-18 00:27:51 - web_scraper - INFO - scrape_all_pages_api:110 - No more pages available
+2025-11-18 00:27:51 - web_scraper - INFO - scrape_all_pages_api:113 - Completed pagination: 1 pages, 1 total products
+2025-11-18 00:27:51 - web_scraper - INFO - scrape_multiple_urls:142 - URL 1 complete: 1 products
+2025-11-18 00:27:51 - web_scraper - INFO - close:52 - Browser closed
+2025-11-18 00:27:51 - web_scraper - INFO - main:181 - 
+Successfully scraped 1 total products via API
+2025-11-18 00:27:51 - web_scraper - INFO - main:197 - 
+Saving data to files...
+2025-11-18 00:27:51 - web_scraper - INFO - __init__:24 - File storage initialized: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data
+2025-11-18 00:27:51 - web_scraper - INFO - save_json:56 - Saved 1 products to JSON: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_002751.json
+2025-11-18 00:27:51 - web_scraper - INFO - save_csv:104 - Saved 1 products to CSV: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_002751.csv
+2025-11-18 00:27:51 - web_scraper - WARNING - save_parquet:121 - pandas not available, skipping Parquet export
+2025-11-18 00:27:51 - web_scraper - INFO - main:207 - Scraping pipeline completed (API method)
+2025-11-18 00:28:28 - web_scraper - INFO - main:162 - Starting web scraping pipeline
+2025-11-18 00:28:28 - web_scraper - INFO - main:171 - Scraping 1 URL(s)
+2025-11-18 00:28:28 - web_scraper - INFO - main:173 -   1. https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:28:28 - web_scraper - INFO - main:176 - 
+Attempting to scrape via API interception...
+2025-11-18 00:28:28 - web_scraper - INFO - scrape_multiple_urls:131 - Scraping 1 URLs using API scraper...
+2025-11-18 00:28:28 - web_scraper - INFO - _start_browser:36 - Browser started for API interception
+2025-11-18 00:28:28 - web_scraper - INFO - scrape_multiple_urls:134 - 
+============================================================
+2025-11-18 00:28:28 - web_scraper - INFO - scrape_multiple_urls:135 - URL 1/1: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:28:28 - web_scraper - INFO - scrape_multiple_urls:136 - ============================================================
+2025-11-18 00:28:28 - web_scraper - INFO - scrape_all_pages_api:89 - Starting pagination scraping from: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:28:28 - web_scraper - INFO - scrape_all_pages_api:92 - ============================================================
+2025-11-18 00:28:28 - web_scraper - INFO - scrape_all_pages_api:93 - SCRAPING PAGE 1
+2025-11-18 00:28:28 - web_scraper - INFO - scrape_all_pages_api:94 - ============================================================
+2025-11-18 00:28:28 - web_scraper - INFO - scrape_page_api:25 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:28:28 - web_scraper - INFO - scrape:119 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:28:34 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 00:28:34 - web_scraper - INFO - handle_response:90 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 00:28:34 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 00:28:34 - web_scraper - INFO - handle_response:90 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 00:28:34 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 00:28:34 - web_scraper - INFO - handle_response:90 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 00:28:34 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 00:28:34 - web_scraper - INFO - handle_response:90 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 00:28:35 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 00:28:35 - web_scraper - INFO - handle_response:90 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:28:35 - web_scraper - INFO - scrape:144 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:28:35 - web_scraper - INFO - scrape:155 - Successfully captured products API response
+2025-11-18 00:28:35 - web_scraper - INFO - scrape:159 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:28:35 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:28:35 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:28:35 - web_scraper - INFO - _parse_api_products:269 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:28:35 - web_scraper - INFO - _parse_api_products:274 - Found key 'products' with type: <class 'list'>
+2025-11-18 00:28:35 - web_scraper - INFO - _parse_api_products:277 -   Processing 1 items from 'products'
+2025-11-18 00:28:35 - web_scraper - INFO - _parse_api_products:299 - Parsed 1 products from API data
+2025-11-18 00:28:35 - web_scraper - INFO - scrape_all_pages_api:100 - Page 1: Found 1 products (Total so far: 1)
+2025-11-18 00:28:35 - web_scraper - INFO - scrape_all_pages_api:110 - No more pages available
+2025-11-18 00:28:35 - web_scraper - INFO - scrape_all_pages_api:113 - Completed pagination: 1 pages, 1 total products
+2025-11-18 00:28:35 - web_scraper - INFO - scrape_multiple_urls:142 - URL 1 complete: 1 products
+2025-11-18 00:28:35 - web_scraper - INFO - close:52 - Browser closed
+2025-11-18 00:28:35 - web_scraper - INFO - main:181 - 
+Successfully scraped 1 total products via API
+2025-11-18 00:28:35 - web_scraper - INFO - main:197 - 
+Saving data to files...
+2025-11-18 00:28:35 - web_scraper - INFO - __init__:24 - File storage initialized: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data
+2025-11-18 00:28:35 - web_scraper - INFO - save_json:56 - Saved 1 products to JSON: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_002835.json
+2025-11-18 00:28:35 - web_scraper - INFO - save_csv:104 - Saved 1 products to CSV: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_002835.csv
+2025-11-18 00:28:35 - web_scraper - WARNING - save_parquet:121 - pandas not available, skipping Parquet export
+2025-11-18 00:28:35 - web_scraper - INFO - main:207 - Scraping pipeline completed (API method)
+2025-11-18 00:28:59 - web_scraper - INFO - main:162 - Starting web scraping pipeline
+2025-11-18 00:28:59 - web_scraper - INFO - main:171 - Scraping 1 URL(s)
+2025-11-18 00:28:59 - web_scraper - INFO - main:173 -   1. https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:28:59 - web_scraper - INFO - main:176 - 
+Attempting to scrape via API interception...
+2025-11-18 00:28:59 - web_scraper - INFO - scrape_multiple_urls:131 - Scraping 1 URLs using API scraper...
+2025-11-18 00:29:00 - web_scraper - INFO - _start_browser:36 - Browser started for API interception
+2025-11-18 00:29:00 - web_scraper - INFO - scrape_multiple_urls:134 - 
+============================================================
+2025-11-18 00:29:00 - web_scraper - INFO - scrape_multiple_urls:135 - URL 1/1: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:29:00 - web_scraper - INFO - scrape_multiple_urls:136 - ============================================================
+2025-11-18 00:29:00 - web_scraper - INFO - scrape_all_pages_api:89 - Starting pagination scraping from: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:29:00 - web_scraper - INFO - scrape_all_pages_api:92 - ============================================================
+2025-11-18 00:29:00 - web_scraper - INFO - scrape_all_pages_api:93 - SCRAPING PAGE 1
+2025-11-18 00:29:00 - web_scraper - INFO - scrape_all_pages_api:94 - ============================================================
+2025-11-18 00:29:00 - web_scraper - INFO - scrape_page_api:25 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:29:00 - web_scraper - INFO - scrape:119 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:29:04 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 00:29:04 - web_scraper - INFO - handle_response:90 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 00:29:04 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 00:29:04 - web_scraper - INFO - handle_response:90 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 00:29:04 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 00:29:04 - web_scraper - INFO - handle_response:90 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 00:29:04 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 00:29:04 - web_scraper - INFO - handle_response:90 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 00:29:05 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 00:29:05 - web_scraper - INFO - handle_response:90 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:29:05 - web_scraper - INFO - scrape:144 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:29:05 - web_scraper - INFO - scrape:155 - Successfully captured products API response
+2025-11-18 00:29:05 - web_scraper - INFO - scrape:159 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:29:05 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:29:05 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:29:05 - web_scraper - INFO - _parse_api_products:269 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:29:05 - web_scraper - INFO - _parse_api_products:274 - Found key 'products' with type: <class 'list'>
+2025-11-18 00:29:05 - web_scraper - INFO - _parse_api_products:277 -   Processing 1 items from 'products'
+2025-11-18 00:29:05 - web_scraper - INFO - _parse_api_products:299 - Parsed 1 products from API data
+2025-11-18 00:29:05 - web_scraper - INFO - scrape_all_pages_api:100 - Page 1: Found 1 products (Total so far: 1)
+2025-11-18 00:29:05 - web_scraper - INFO - scrape_all_pages_api:110 - No more pages available
+2025-11-18 00:29:05 - web_scraper - INFO - scrape_all_pages_api:113 - Completed pagination: 1 pages, 1 total products
+2025-11-18 00:29:05 - web_scraper - INFO - scrape_multiple_urls:142 - URL 1 complete: 1 products
+2025-11-18 00:29:05 - web_scraper - INFO - close:52 - Browser closed
+2025-11-18 00:29:05 - web_scraper - INFO - main:181 - 
+Successfully scraped 1 total products via API
+2025-11-18 00:29:05 - web_scraper - INFO - main:197 - 
+Saving data to files...
+2025-11-18 00:29:05 - web_scraper - INFO - __init__:24 - File storage initialized: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data
+2025-11-18 00:29:05 - web_scraper - INFO - save_json:56 - Saved 1 products to JSON: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_002905.json
+2025-11-18 00:29:05 - web_scraper - INFO - save_csv:104 - Saved 1 products to CSV: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_002905.csv
+2025-11-18 00:29:05 - web_scraper - WARNING - save_parquet:121 - pandas not available, skipping Parquet export
+2025-11-18 00:29:05 - web_scraper - INFO - main:207 - Scraping pipeline completed (API method)
+2025-11-18 00:40:25 - web_scraper - INFO - test_api_response:13 - Testing API response...
+2025-11-18 00:40:25 - web_scraper - INFO - test_api_response:14 - URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:40:26 - web_scraper - INFO - _start_browser:36 - Browser started for API interception
+2025-11-18 00:40:26 - web_scraper - INFO - scrape:119 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:40:34 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 00:40:34 - web_scraper - INFO - handle_response:90 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 00:40:34 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 00:40:34 - web_scraper - INFO - handle_response:90 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 00:40:34 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 00:40:34 - web_scraper - INFO - handle_response:90 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 00:40:35 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 00:40:35 - web_scraper - INFO - handle_response:90 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 00:40:35 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 00:40:35 - web_scraper - INFO - handle_response:90 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:40:35 - web_scraper - INFO - scrape:144 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:40:35 - web_scraper - INFO - scrape:155 - Successfully captured products API response
+2025-11-18 00:40:35 - web_scraper - INFO - scrape:159 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:40:35 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:40:35 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:40:35 - web_scraper - INFO - _parse_api_products:269 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:40:35 - web_scraper - INFO - _parse_api_products:274 - Found key 'products' with type: <class 'list'>
+2025-11-18 00:40:35 - web_scraper - INFO - _parse_api_products:277 -   Processing 1 items from 'products'
+2025-11-18 00:40:35 - web_scraper - INFO - _parse_api_products:299 - Parsed 1 products from API data
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:21 - 
+Captured 6 API responses
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:26 - 
+============================================================
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:27 - API Response 5: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:28 - ============================================================
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:36 - Full response saved to: api_response_5.json
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:40 - Response keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:45 - Products type: <class 'list'>
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:47 - Number of products: 1
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:48 - Sample product keys: ['barcode', 'description', 'charged', 'price', 'amount', 'stock', 'maturity', 'term', 'replacement', 'favorite', 'marketplace', 'restrict', 'offer', 'thumbnail', 'images', 'subcategory', 'pack']
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:51 - 
+Checking for pagination info...
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:59 - Response code: 1
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:61 - Response message: Se consultaron productos en oferta.
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:64 - 
+First 3 products:
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:68 -   1. Licuadora Taurus 4 Veloci Vidrio Granite Magno - Q204.95
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:26 - 
+============================================================
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:27 - API Response 6: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:28 - ============================================================
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:36 - Full response saved to: api_response_6.json
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:40 - Response keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:45 - Products type: <class 'list'>
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:47 - Number of products: 1
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:48 - Sample product keys: ['barcode', 'description', 'charged', 'price', 'amount', 'stock', 'maturity', 'term', 'replacement', 'favorite', 'marketplace', 'restrict', 'offer', 'thumbnail', 'images', 'subcategory', 'pack']
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:51 - 
+Checking for pagination info...
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:59 - Response code: 1
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:61 - Response message: Se consultaron productos en oferta.
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:64 - 
+First 3 products:
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:68 -   1. Licuadora Taurus 4 Veloci Vidrio Granite Magno - Q204.95
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:84 - 
+============================================================
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:85 - PARSED RESULT
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:86 - ============================================================
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:87 - Products found: 1
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:88 - Pagination info: None
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:89 - Next page: None
+2025-11-18 00:40:35 - web_scraper - INFO - test_api_response:97 - Raw products list length: 1
+2025-11-18 00:40:35 - web_scraper - INFO - close:52 - Browser closed
+2025-11-18 00:41:06 - web_scraper - INFO - inspect_api_requests:13 - Inspecting API requests...
+2025-11-18 00:41:06 - web_scraper - INFO - inspect_api_requests:14 - URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:41:08 - web_scraper - INFO - inspect_api_requests:39 - Navigating to page...
+2025-11-18 00:41:24 - web_scraper - WARNING - inspect_api_requests:70 - No API requests captured
+2025-11-18 00:42:05 - web_scraper - INFO - test_api_direct:20 - Testing API directly...
+2025-11-18 00:42:05 - web_scraper - INFO - test_api_direct:21 - Original URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:42:05 - web_scraper - INFO - test_api_direct:22 - Extracted params: {'minPrice': ['0'], 'maxPrice': ['225']}
+2025-11-18 00:42:05 - web_scraper - INFO - test_api_direct:35 - Subcategory ID from URL: 9
+2025-11-18 00:42:05 - web_scraper - INFO - test_api_direct:44 - 
+============================================================
+2025-11-18 00:42:05 - web_scraper - INFO - test_api_direct:45 - TEST 1: Products API with subcategory and price range
+2025-11-18 00:42:05 - web_scraper - INFO - test_api_direct:46 - ============================================================
+2025-11-18 00:42:06 - web_scraper - INFO - test_api_direct:56 - Status: 405
+2025-11-18 00:42:06 - web_scraper - INFO - test_api_direct:74 - 
+============================================================
+2025-11-18 00:42:06 - web_scraper - INFO - test_api_direct:75 - TEST 2: Products API with page parameter
+2025-11-18 00:42:06 - web_scraper - INFO - test_api_direct:76 - ============================================================
+2025-11-18 00:42:06 - web_scraper - INFO - test_api_direct:84 - Status: 405
+2025-11-18 00:42:06 - web_scraper - INFO - test_api_direct:100 - 
+============================================================
+2025-11-18 00:42:06 - web_scraper - INFO - test_api_direct:101 - TEST 3: Subcategory API endpoint
+2025-11-18 00:42:06 - web_scraper - INFO - test_api_direct:102 - ============================================================
+2025-11-18 00:42:06 - web_scraper - INFO - test_api_direct:111 - Status: 405
+2025-11-18 00:42:06 - web_scraper - INFO - test_api_direct:129 - 
+============================================================
+2025-11-18 00:42:06 - web_scraper - INFO - test_api_direct:130 - TEST 4: Products API without price filters
+2025-11-18 00:42:06 - web_scraper - INFO - test_api_direct:131 - ============================================================
+2025-11-18 00:42:07 - web_scraper - INFO - test_api_direct:138 - Status: 405
+2025-11-18 00:42:33 - web_scraper - INFO - test_scroll_and_wait:14 - Testing scroll and wait for more API calls...
+2025-11-18 00:42:33 - web_scraper - INFO - test_scroll_and_wait:15 - URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:42:37 - web_scraper - INFO - test_scroll_and_wait:45 - Navigating to page...
+2025-11-18 00:42:38 - web_scraper - INFO - test_scroll_and_wait:49 - Waiting for initial load...
+2025-11-18 00:42:43 - web_scraper - INFO - test_scroll_and_wait:53 - Scrolling page to trigger lazy loading...
+2025-11-18 00:42:45 - web_scraper - INFO - test_scroll_and_wait:57 -   Scroll 1/5
+2025-11-18 00:42:45 - web_scraper - INFO - handle_response:38 - Captured API response: 1 products
+2025-11-18 00:42:47 - web_scraper - INFO - test_scroll_and_wait:57 -   Scroll 2/5
+2025-11-18 00:42:49 - web_scraper - INFO - test_scroll_and_wait:57 -   Scroll 3/5
+2025-11-18 00:42:51 - web_scraper - INFO - test_scroll_and_wait:57 -   Scroll 4/5
+2025-11-18 00:42:53 - web_scraper - INFO - test_scroll_and_wait:57 -   Scroll 5/5
+2025-11-18 00:42:53 - web_scraper - INFO - test_scroll_and_wait:60 - Scrolling back to top...
+2025-11-18 00:42:55 - web_scraper - INFO - test_scroll_and_wait:65 - Scrolling down slowly...
+2025-11-18 00:43:05 - web_scraper - INFO - test_scroll_and_wait:72 - Waiting for any delayed API calls...
+2025-11-18 00:43:15 - web_scraper - INFO - test_scroll_and_wait:75 - 
+============================================================
+2025-11-18 00:43:15 - web_scraper - INFO - test_scroll_and_wait:76 - RESULTS
+2025-11-18 00:43:15 - web_scraper - INFO - test_scroll_and_wait:77 - ============================================================
+2025-11-18 00:43:15 - web_scraper - INFO - test_scroll_and_wait:78 - Total API calls captured: 1
+2025-11-18 00:43:15 - web_scraper - INFO - test_scroll_and_wait:85 - 
+API Call 1:
+2025-11-18 00:43:15 - web_scraper - INFO - test_scroll_and_wait:86 -   Products: 1
+2025-11-18 00:43:15 - web_scraper - INFO - test_scroll_and_wait:87 -   Timestamp: 1763448165.7999473
+2025-11-18 00:43:15 - web_scraper - INFO - test_scroll_and_wait:99 -   Saved to: api_scroll_response_1.json
+2025-11-18 00:43:15 - web_scraper - INFO - test_scroll_and_wait:101 - 
+Total unique products found: 1
+2025-11-18 00:43:15 - web_scraper - INFO - test_scroll_and_wait:102 - Total products across all calls: 1
+2025-11-18 00:43:16 - web_scraper - INFO - test_scroll_and_wait:106 - Screenshot saved to: scroll_test_screenshot.png
+2025-11-18 00:43:42 - web_scraper - INFO - test_different_urls:28 - 
+============================================================
+2025-11-18 00:43:42 - web_scraper - INFO - test_different_urls:29 - TEST 1/4: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:43:42 - web_scraper - INFO - test_different_urls:30 - ============================================================
+2025-11-18 00:43:43 - web_scraper - INFO - _start_browser:36 - Browser started for API interception
+2025-11-18 00:43:43 - web_scraper - INFO - scrape:119 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:43:47 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 00:43:47 - web_scraper - INFO - handle_response:90 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 00:43:47 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 00:43:47 - web_scraper - INFO - handle_response:90 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 00:43:47 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 00:43:47 - web_scraper - INFO - handle_response:90 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 00:43:48 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 00:43:48 - web_scraper - INFO - handle_response:90 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 00:43:49 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 00:43:49 - web_scraper - INFO - handle_response:90 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:43:49 - web_scraper - INFO - scrape:144 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:43:49 - web_scraper - INFO - scrape:155 - Successfully captured products API response
+2025-11-18 00:43:49 - web_scraper - INFO - scrape:159 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:43:49 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:43:49 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:43:49 - web_scraper - INFO - _parse_api_products:269 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:43:49 - web_scraper - INFO - _parse_api_products:274 - Found key 'products' with type: <class 'list'>
+2025-11-18 00:43:49 - web_scraper - INFO - _parse_api_products:277 -   Processing 1 items from 'products'
+2025-11-18 00:43:49 - web_scraper - INFO - _parse_api_products:299 - Parsed 1 products from API data
+2025-11-18 00:43:49 - web_scraper - INFO - test_different_urls:37 - Products found: 1
+2025-11-18 00:43:49 - web_scraper - INFO - test_different_urls:39 - Sample: Pascua Rojo 22x20
+2025-11-18 00:43:49 - web_scraper - INFO - test_different_urls:51 - Saved to: test_url_1_result.json
+2025-11-18 00:43:49 - web_scraper - INFO - close:52 - Browser closed
+2025-11-18 00:43:51 - web_scraper - INFO - test_different_urls:28 - 
+============================================================
+2025-11-18 00:43:51 - web_scraper - INFO - test_different_urls:29 - TEST 2/4: https://www.misuperfresh.com.gt/catalog/9
+2025-11-18 00:43:51 - web_scraper - INFO - test_different_urls:30 - ============================================================
+2025-11-18 00:43:51 - web_scraper - INFO - _start_browser:36 - Browser started for API interception
+2025-11-18 00:43:51 - web_scraper - INFO - scrape:119 - Navigating to: https://www.misuperfresh.com.gt/catalog/9
+2025-11-18 00:43:57 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 00:43:57 - web_scraper - INFO - handle_response:90 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 00:43:57 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 00:43:57 - web_scraper - INFO - handle_response:90 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 00:43:57 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 00:43:57 - web_scraper - INFO - handle_response:90 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 00:43:57 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 00:43:57 - web_scraper - INFO - handle_response:90 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 00:43:57 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 00:43:57 - web_scraper - INFO - handle_response:90 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:43:57 - web_scraper - INFO - scrape:144 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:43:57 - web_scraper - INFO - scrape:155 - Successfully captured products API response
+2025-11-18 00:43:57 - web_scraper - INFO - scrape:159 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:43:57 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:43:57 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:43:57 - web_scraper - INFO - _parse_api_products:269 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:43:57 - web_scraper - INFO - _parse_api_products:274 - Found key 'products' with type: <class 'list'>
+2025-11-18 00:43:57 - web_scraper - INFO - _parse_api_products:277 -   Processing 1 items from 'products'
+2025-11-18 00:43:57 - web_scraper - INFO - _parse_api_products:299 - Parsed 1 products from API data
+2025-11-18 00:43:57 - web_scraper - INFO - test_different_urls:37 - Products found: 1
+2025-11-18 00:43:57 - web_scraper - INFO - test_different_urls:39 - Sample: Desodorante Old Spice Barra Seco Seco 50g
+2025-11-18 00:43:57 - web_scraper - INFO - test_different_urls:51 - Saved to: test_url_2_result.json
+2025-11-18 00:43:58 - web_scraper - INFO - close:52 - Browser closed
+2025-11-18 00:44:00 - web_scraper - INFO - test_different_urls:28 - 
+============================================================
+2025-11-18 00:44:00 - web_scraper - INFO - test_different_urls:29 - TEST 3/4: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=1000
+2025-11-18 00:44:00 - web_scraper - INFO - test_different_urls:30 - ============================================================
+2025-11-18 00:44:00 - web_scraper - INFO - _start_browser:36 - Browser started for API interception
+2025-11-18 00:44:00 - web_scraper - INFO - scrape:119 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=1000
+2025-11-18 00:44:05 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 00:44:05 - web_scraper - INFO - handle_response:90 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 00:44:05 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 00:44:05 - web_scraper - INFO - handle_response:90 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 00:44:05 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 00:44:05 - web_scraper - INFO - handle_response:90 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 00:44:05 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 00:44:05 - web_scraper - INFO - handle_response:90 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 00:44:05 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 00:44:05 - web_scraper - INFO - handle_response:90 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:44:05 - web_scraper - INFO - scrape:144 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:44:05 - web_scraper - INFO - scrape:155 - Successfully captured products API response
+2025-11-18 00:44:05 - web_scraper - INFO - scrape:159 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:44:05 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:44:05 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:44:05 - web_scraper - INFO - _parse_api_products:269 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:44:05 - web_scraper - INFO - _parse_api_products:274 - Found key 'products' with type: <class 'list'>
+2025-11-18 00:44:05 - web_scraper - INFO - _parse_api_products:277 -   Processing 1 items from 'products'
+2025-11-18 00:44:05 - web_scraper - INFO - _parse_api_products:299 - Parsed 1 products from API data
+2025-11-18 00:44:05 - web_scraper - INFO - test_different_urls:37 - Products found: 1
+2025-11-18 00:44:05 - web_scraper - INFO - test_different_urls:39 - Sample: Desinfectante Fabuloso Fusion/Fruto R Sachet 750ml
+2025-11-18 00:44:05 - web_scraper - INFO - test_different_urls:51 - Saved to: test_url_3_result.json
+2025-11-18 00:44:05 - web_scraper - INFO - close:52 - Browser closed
+2025-11-18 00:44:07 - web_scraper - INFO - test_different_urls:28 - 
+============================================================
+2025-11-18 00:44:07 - web_scraper - INFO - test_different_urls:29 - TEST 4/4: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=500
+2025-11-18 00:44:07 - web_scraper - INFO - test_different_urls:30 - ============================================================
+2025-11-18 00:44:08 - web_scraper - INFO - _start_browser:36 - Browser started for API interception
+2025-11-18 00:44:08 - web_scraper - INFO - scrape:119 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=500
+2025-11-18 00:44:12 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 00:44:12 - web_scraper - INFO - handle_response:90 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 00:44:12 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 00:44:12 - web_scraper - INFO - handle_response:90 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 00:44:12 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 00:44:12 - web_scraper - INFO - handle_response:90 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 00:44:12 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 00:44:12 - web_scraper - INFO - handle_response:90 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 00:44:13 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 00:44:13 - web_scraper - INFO - handle_response:90 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:44:13 - web_scraper - INFO - scrape:144 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:44:13 - web_scraper - INFO - scrape:155 - Successfully captured products API response
+2025-11-18 00:44:13 - web_scraper - INFO - scrape:159 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:44:13 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:44:13 - web_scraper - INFO - scrape:181 - Found products data: dict
+2025-11-18 00:44:13 - web_scraper - INFO - _parse_api_products:269 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:44:13 - web_scraper - INFO - _parse_api_products:274 - Found key 'products' with type: <class 'list'>
+2025-11-18 00:44:13 - web_scraper - INFO - _parse_api_products:277 -   Processing 1 items from 'products'
+2025-11-18 00:44:13 - web_scraper - INFO - _parse_api_products:299 - Parsed 1 products from API data
+2025-11-18 00:44:13 - web_scraper - INFO - test_different_urls:37 - Products found: 1
+2025-11-18 00:44:13 - web_scraper - INFO - test_different_urls:39 - Sample: Salsa Regia Tomate Queso 100g
+2025-11-18 00:44:13 - web_scraper - INFO - test_different_urls:51 - Saved to: test_url_4_result.json
+2025-11-18 00:44:13 - web_scraper - INFO - close:52 - Browser closed
+2025-11-18 00:44:15 - web_scraper - INFO - test_different_urls:65 - 
+============================================================
+2025-11-18 00:44:15 - web_scraper - INFO - test_different_urls:66 - SUMMARY
+2025-11-18 00:44:15 - web_scraper - INFO - test_different_urls:67 - ============================================================
+2025-11-18 00:44:15 - web_scraper - INFO - test_different_urls:69 - https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225: 1 products
+2025-11-18 00:44:15 - web_scraper - INFO - test_different_urls:69 - https://www.misuperfresh.com.gt/catalog/9: 1 products
+2025-11-18 00:44:15 - web_scraper - INFO - test_different_urls:69 - https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=1000: 1 products
+2025-11-18 00:44:15 - web_scraper - INFO - test_different_urls:69 - https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=500: 1 products
+2025-11-18 00:44:15 - web_scraper - INFO - test_different_urls:73 - 
+Best URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225 with 1 products
+2025-11-18 00:44:15 - web_scraper - INFO - test_different_urls:78 - Summary saved to: test_results_summary.json
+2025-11-18 00:44:48 - web_scraper - INFO - capture_full_request:14 - Capturing full API request details...
+2025-11-18 00:44:48 - web_scraper - INFO - capture_full_request:15 - URL: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:44:52 - web_scraper - INFO - capture_full_request:64 - Navigating to page...
+2025-11-18 00:45:08 - web_scraper - INFO - handle_request:35 - API Request: POST https://msf-api.gta.com.gt/api/products
+2025-11-18 00:45:08 - web_scraper - INFO - handle_request:39 -   POST Body: {
+  "channel": "web",
+  "type": 7,
+  "store": {
+    "code": 204
+  }
+}
+2025-11-18 00:46:26 - web_scraper - INFO - main:162 - Starting web scraping pipeline
+2025-11-18 00:46:26 - web_scraper - INFO - main:171 - Scraping 1 URL(s)
+2025-11-18 00:46:26 - web_scraper - INFO - main:173 -   1. https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:46:26 - web_scraper - INFO - main:176 - 
+Attempting to scrape via API interception...
+2025-11-18 00:46:26 - web_scraper - INFO - scrape_multiple_urls:131 - Scraping 1 URLs using API scraper...
+2025-11-18 00:46:27 - web_scraper - INFO - _start_browser:36 - Browser started for API interception
+2025-11-18 00:46:27 - web_scraper - INFO - scrape_multiple_urls:134 - 
+============================================================
+2025-11-18 00:46:27 - web_scraper - INFO - scrape_multiple_urls:135 - URL 1/1: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:46:27 - web_scraper - INFO - scrape_multiple_urls:136 - ============================================================
+2025-11-18 00:46:27 - web_scraper - INFO - scrape_all_pages_api:89 - Starting pagination scraping from: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:46:27 - web_scraper - INFO - scrape_all_pages_api:92 - ============================================================
+2025-11-18 00:46:27 - web_scraper - INFO - scrape_all_pages_api:93 - SCRAPING PAGE 1
+2025-11-18 00:46:27 - web_scraper - INFO - scrape_all_pages_api:94 - ============================================================
+2025-11-18 00:46:27 - web_scraper - INFO - scrape_page_api:25 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:46:27 - web_scraper - INFO - scrape:119 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:46:31 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 00:46:31 - web_scraper - INFO - handle_response:90 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 00:46:31 - web_scraper - INFO - handle_route:133 - Captured POST request body: {
+  "channel": "web",
+  "type": 7,
+  "store": {
+    "code": 204
+  }
+}
+2025-11-18 00:46:31 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 00:46:31 - web_scraper - INFO - handle_response:90 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 00:46:31 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 00:46:31 - web_scraper - INFO - handle_response:90 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 00:46:31 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 00:46:31 - web_scraper - INFO - handle_response:90 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 00:46:32 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 00:46:32 - web_scraper - INFO - handle_response:90 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:46:32 - web_scraper - INFO - scrape:153 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:46:32 - web_scraper - INFO - scrape:164 - Successfully captured products API response
+2025-11-18 00:46:32 - web_scraper - INFO - scrape:168 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:46:32 - web_scraper - INFO - scrape:184 - Only 1 product(s) found, trying additional API calls with different parameters...
+2025-11-18 00:46:32 - web_scraper - INFO - scrape:217 - Trying API call 1/5 with config: {'type': 0, 'subcategoryId': 9}...
+2025-11-18 00:46:32 - web_scraper - INFO - scrape:246 -   Config {'type': 0, 'subcategoryId': 9}: Found 0 products
+2025-11-18 00:46:32 - web_scraper - INFO - scrape:217 - Trying API call 2/5 with config: {'type': 1, 'subcategoryId': 9}...
+2025-11-18 00:46:33 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategory (Status: 200)
+2025-11-18 00:46:33 - web_scraper - INFO - handle_response:90 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:46:35 - web_scraper - INFO - scrape:246 -   Config {'type': 1, 'subcategoryId': 9}: Found 1922 products
+2025-11-18 00:46:35 - web_scraper - INFO - scrape:250 -   SUCCESS! Found 1922 products with config: {'type': 1, 'subcategoryId': 9}
+2025-11-18 00:46:35 - web_scraper - INFO - scrape:217 - Trying API call 3/5 with config: {'subcategoryId': 9}...
+2025-11-18 00:46:35 - web_scraper - INFO - scrape:246 -   Config {'subcategoryId': 9}: Found 0 products
+2025-11-18 00:46:35 - web_scraper - INFO - scrape:217 - Trying API call 4/5 with config: {'type': 0}...
+2025-11-18 00:46:35 - web_scraper - INFO - scrape:246 -   Config {'type': 0}: Found 0 products
+2025-11-18 00:46:35 - web_scraper - INFO - scrape:217 - Trying API call 5/5 with config: {}...
+2025-11-18 00:46:35 - web_scraper - INFO - scrape:246 -   Config {}: Found 0 products
+2025-11-18 00:46:35 - web_scraper - INFO - scrape:273 - Found products data: dict
+2025-11-18 00:46:35 - web_scraper - INFO - scrape:273 - Found products data: dict
+2025-11-18 00:46:35 - web_scraper - INFO - scrape:276 - Found subcategory data
+2025-11-18 00:46:35 - web_scraper - INFO - scrape:273 - Found products data: dict
+2025-11-18 00:46:35 - web_scraper - INFO - _parse_api_products:361 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:46:35 - web_scraper - INFO - _parse_api_products:366 - Found key 'products' with type: <class 'list'>
+2025-11-18 00:46:35 - web_scraper - INFO - _parse_api_products:369 -   Processing 1922 items from 'products'
+2025-11-18 00:46:35 - web_scraper - INFO - _parse_api_products:391 - Parsed 1922 products from API data
+2025-11-18 00:46:35 - web_scraper - INFO - scrape_all_pages_api:100 - Page 1: Found 1922 products (Total so far: 1922)
+2025-11-18 00:46:35 - web_scraper - INFO - scrape_all_pages_api:110 - No more pages available
+2025-11-18 00:46:35 - web_scraper - INFO - scrape_all_pages_api:113 - Completed pagination: 1 pages, 1922 total products
+2025-11-18 00:46:35 - web_scraper - INFO - scrape_multiple_urls:142 - URL 1 complete: 1922 products
+2025-11-18 00:46:35 - web_scraper - INFO - close:52 - Browser closed
+2025-11-18 00:46:35 - web_scraper - INFO - main:181 - 
+Successfully scraped 1922 total products via API
+2025-11-18 00:46:35 - web_scraper - INFO - main:197 - 
+Saving data to files...
+2025-11-18 00:46:35 - web_scraper - INFO - __init__:24 - File storage initialized: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data
+2025-11-18 00:46:35 - web_scraper - INFO - save_json:56 - Saved 1922 products to JSON: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_004635.json
+2025-11-18 00:46:35 - web_scraper - INFO - save_csv:104 - Saved 1922 products to CSV: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_004635.csv
+2025-11-18 00:46:35 - web_scraper - WARNING - save_parquet:121 - pandas not available, skipping Parquet export
+2025-11-18 00:46:35 - web_scraper - INFO - main:207 - Scraping pipeline completed (API method)
+2025-11-18 00:47:14 - web_scraper - INFO - main:162 - Starting web scraping pipeline
+2025-11-18 00:47:14 - web_scraper - INFO - main:171 - Scraping 1 URL(s)
+2025-11-18 00:47:14 - web_scraper - INFO - main:173 -   1. https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:47:14 - web_scraper - INFO - main:176 - 
+Attempting to scrape via API interception...
+2025-11-18 00:47:14 - web_scraper - INFO - scrape_multiple_urls:131 - Scraping 1 URLs using API scraper...
+2025-11-18 00:47:17 - web_scraper - INFO - _start_browser:36 - Browser started for API interception
+2025-11-18 00:47:17 - web_scraper - INFO - scrape_multiple_urls:134 - 
+============================================================
+2025-11-18 00:47:17 - web_scraper - INFO - scrape_multiple_urls:135 - URL 1/1: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:47:17 - web_scraper - INFO - scrape_multiple_urls:136 - ============================================================
+2025-11-18 00:47:17 - web_scraper - INFO - scrape_all_pages_api:89 - Starting pagination scraping from: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:47:17 - web_scraper - INFO - scrape_all_pages_api:92 - ============================================================
+2025-11-18 00:47:17 - web_scraper - INFO - scrape_all_pages_api:93 - SCRAPING PAGE 1
+2025-11-18 00:47:17 - web_scraper - INFO - scrape_all_pages_api:94 - ============================================================
+2025-11-18 00:47:17 - web_scraper - INFO - scrape_page_api:25 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:47:17 - web_scraper - INFO - scrape:119 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:47:24 - web_scraper - INFO - handle_route:133 - Captured POST request body: {
+  "channel": "web",
+  "type": 7,
+  "store": {
+    "code": 204
+  }
+}
+2025-11-18 00:47:24 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 00:47:24 - web_scraper - INFO - handle_response:90 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 00:47:24 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 00:47:24 - web_scraper - INFO - handle_response:90 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 00:47:24 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 00:47:24 - web_scraper - INFO - handle_response:90 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 00:47:25 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 00:47:25 - web_scraper - INFO - handle_response:90 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:47:25 - web_scraper - INFO - scrape:153 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:47:25 - web_scraper - INFO - scrape:164 - Successfully captured products API response
+2025-11-18 00:47:25 - web_scraper - INFO - scrape:168 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:47:25 - web_scraper - INFO - scrape:184 - Only 1 product(s) found, trying additional API calls with different parameters...
+2025-11-18 00:47:25 - web_scraper - INFO - scrape:217 - Trying API call 1/5 with config: {'type': 0, 'subcategoryId': 9}...
+2025-11-18 00:47:25 - web_scraper - INFO - scrape:246 -   Config {'type': 0, 'subcategoryId': 9}: Found 0 products
+2025-11-18 00:47:25 - web_scraper - INFO - scrape:217 - Trying API call 2/5 with config: {'type': 1, 'subcategoryId': 9}...
+2025-11-18 00:47:26 - web_scraper - INFO - handle_response:84 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 00:47:26 - web_scraper - INFO - handle_response:90 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 00:47:26 - web_scraper - INFO - scrape:246 -   Config {'type': 1, 'subcategoryId': 9}: Found 1922 products
+2025-11-18 00:47:26 - web_scraper - INFO - scrape:250 -   SUCCESS! Found 1922 products with config: {'type': 1, 'subcategoryId': 9}
+2025-11-18 00:47:26 - web_scraper - INFO - scrape:217 - Trying API call 3/5 with config: {'subcategoryId': 9}...
+2025-11-18 00:47:26 - web_scraper - INFO - scrape:246 -   Config {'subcategoryId': 9}: Found 0 products
+2025-11-18 00:47:26 - web_scraper - INFO - scrape:217 - Trying API call 4/5 with config: {'type': 0}...
+2025-11-18 00:47:26 - web_scraper - INFO - scrape:246 -   Config {'type': 0}: Found 0 products
+2025-11-18 00:47:26 - web_scraper - INFO - scrape:217 - Trying API call 5/5 with config: {}...
+2025-11-18 00:47:26 - web_scraper - INFO - scrape:246 -   Config {}: Found 0 products
+2025-11-18 00:47:26 - web_scraper - INFO - scrape:282 - Found products data with 1 products
+2025-11-18 00:47:26 - web_scraper - INFO - scrape:282 - Found products data with 1922 products
+2025-11-18 00:47:26 - web_scraper - INFO - scrape:299 - Merging products from 3 API responses...
+2025-11-18 00:47:26 - web_scraper - INFO - scrape:310 - Merged 1922 unique products from 3 responses
+2025-11-18 00:47:26 - web_scraper - INFO - _parse_api_products:399 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:47:26 - web_scraper - INFO - _parse_api_products:404 - Found key 'products' with type: <class 'list'>
+2025-11-18 00:47:26 - web_scraper - INFO - _parse_api_products:407 -   Processing 1922 items from 'products'
+2025-11-18 00:47:26 - web_scraper - INFO - _parse_api_products:429 - Parsed 1922 products from API data
+2025-11-18 00:47:26 - web_scraper - INFO - scrape_all_pages_api:100 - Page 1: Found 1922 products (Total so far: 1922)
+2025-11-18 00:47:26 - web_scraper - INFO - scrape_all_pages_api:110 - No more pages available
+2025-11-18 00:47:26 - web_scraper - INFO - scrape_all_pages_api:113 - Completed pagination: 1 pages, 1922 total products
+2025-11-18 00:47:26 - web_scraper - INFO - scrape_multiple_urls:142 - URL 1 complete: 1922 products
+2025-11-18 00:47:26 - web_scraper - WARNING - handle_response:92 - Could not parse JSON from https://msf-api.gta.com.gt/api/catalog/subcategory: Response.json: Target page, context or browser has been closed
+2025-11-18 00:47:26 - web_scraper - INFO - close:52 - Browser closed
+2025-11-18 00:47:26 - web_scraper - INFO - main:181 - 
+Successfully scraped 1922 total products via API
+2025-11-18 00:47:26 - web_scraper - INFO - main:197 - 
+Saving data to files...
+2025-11-18 00:47:26 - web_scraper - INFO - __init__:24 - File storage initialized: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data
+2025-11-18 00:47:26 - web_scraper - INFO - save_json:56 - Saved 1922 products to JSON: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_004726.json
+2025-11-18 00:47:26 - web_scraper - INFO - save_csv:104 - Saved 1922 products to CSV: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_004726.csv
+2025-11-18 00:47:26 - web_scraper - WARNING - save_parquet:121 - pandas not available, skipping Parquet export
+2025-11-18 00:47:26 - web_scraper - INFO - main:207 - Scraping pipeline completed (API method)
+2025-11-18 00:56:31 - web_scraper - INFO - main:162 - Starting web scraping pipeline
+2025-11-18 00:56:31 - web_scraper - INFO - main:171 - Scraping 1 URL(s)
+2025-11-18 00:56:31 - web_scraper - INFO - main:173 -   1. https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:56:31 - web_scraper - INFO - main:176 - 
+Attempting to scrape via API interception...
+2025-11-18 00:56:31 - web_scraper - INFO - scrape_multiple_urls:131 - Scraping 1 URLs using API scraper...
+2025-11-18 00:56:34 - web_scraper - INFO - _start_browser:37 - Browser started for API interception
+2025-11-18 00:56:34 - web_scraper - INFO - scrape_multiple_urls:134 - 
+============================================================
+2025-11-18 00:56:34 - web_scraper - INFO - scrape_multiple_urls:135 - URL 1/1: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:56:34 - web_scraper - INFO - scrape_multiple_urls:136 - ============================================================
+2025-11-18 00:56:34 - web_scraper - INFO - scrape_all_pages_api:89 - Starting pagination scraping from: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:56:34 - web_scraper - INFO - scrape_all_pages_api:92 - ============================================================
+2025-11-18 00:56:34 - web_scraper - INFO - scrape_all_pages_api:93 - SCRAPING PAGE 1
+2025-11-18 00:56:34 - web_scraper - INFO - scrape_all_pages_api:94 - ============================================================
+2025-11-18 00:56:34 - web_scraper - INFO - scrape_page_api:25 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:56:34 - web_scraper - INFO - scrape:120 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 00:56:40 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 00:56:40 - web_scraper - INFO - handle_response:91 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 00:56:40 - web_scraper - INFO - handle_route:134 - Captured POST request body: {
+  "channel": "web",
+  "type": 7,
+  "store": {
+    "code": 204
+  }
+}
+2025-11-18 00:56:41 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 00:56:41 - web_scraper - INFO - handle_response:91 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 00:56:41 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 00:56:41 - web_scraper - INFO - handle_response:91 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 00:56:41 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 00:56:41 - web_scraper - INFO - handle_response:91 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 00:56:41 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/products (Status: 200)
+2025-11-18 00:56:41 - web_scraper - INFO - handle_response:91 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:56:41 - web_scraper - INFO - scrape:154 - Received API response: https://msf-api.gta.com.gt/api/products
+2025-11-18 00:56:41 - web_scraper - INFO - scrape:165 - Successfully captured products API response
+2025-11-18 00:56:41 - web_scraper - INFO - scrape:169 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:56:41 - web_scraper - INFO - scrape:206 - Force all products mode enabled, trying additional API calls...
+2025-11-18 00:56:41 - web_scraper - INFO - scrape:248 - Trying API call 1/5 with config: {'type': 0, 'subcategoryId': 9}...
+2025-11-18 00:56:41 - web_scraper - INFO - scrape:277 -   Config {'type': 0, 'subcategoryId': 9}: Found 0 products
+2025-11-18 00:56:41 - web_scraper - INFO - scrape:248 - Trying API call 2/5 with config: {'type': 1, 'subcategoryId': 9}...
+2025-11-18 00:56:42 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategory (Status: 200)
+2025-11-18 00:56:42 - web_scraper - INFO - handle_response:91 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:56:43 - web_scraper - INFO - scrape:277 -   Config {'type': 1, 'subcategoryId': 9}: Found 1922 products
+2025-11-18 00:56:43 - web_scraper - INFO - scrape:282 -   NEW BEST! Found 1922 products with config: {'type': 1, 'subcategoryId': 9}
+2025-11-18 00:56:43 - web_scraper - INFO - scrape:248 - Trying API call 3/5 with config: {'subcategoryId': 9}...
+2025-11-18 00:56:43 - web_scraper - INFO - scrape:277 -   Config {'subcategoryId': 9}: Found 0 products
+2025-11-18 00:56:43 - web_scraper - INFO - scrape:248 - Trying API call 4/5 with config: {'type': 0}...
+2025-11-18 00:56:44 - web_scraper - INFO - scrape:277 -   Config {'type': 0}: Found 0 products
+2025-11-18 00:56:44 - web_scraper - INFO - scrape:248 - Trying API call 5/5 with config: {}...
+2025-11-18 00:56:44 - web_scraper - INFO - scrape:277 -   Config {}: Found 0 products
+2025-11-18 00:56:44 - web_scraper - INFO - scrape:304 - Cached best config: {'type': 1, 'subcategoryId': 9}
+2025-11-18 00:56:44 - web_scraper - INFO - scrape:328 - Found products data with 1 products
+2025-11-18 00:56:44 - web_scraper - INFO - scrape:331 - Found subcategory data
+2025-11-18 00:56:44 - web_scraper - INFO - scrape:328 - Found products data with 1922 products
+2025-11-18 00:56:44 - web_scraper - INFO - scrape:345 - Merging products from 3 API responses...
+2025-11-18 00:56:44 - web_scraper - INFO - scrape:356 - Merged 1922 unique products from 3 responses
+2025-11-18 00:56:44 - web_scraper - INFO - _parse_api_products:445 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 00:56:44 - web_scraper - INFO - _parse_api_products:450 - Found key 'products' with type: <class 'list'>
+2025-11-18 00:56:44 - web_scraper - INFO - _parse_api_products:453 -   Processing 1922 items from 'products'
+2025-11-18 00:56:44 - web_scraper - INFO - _parse_api_products:475 - Parsed 1922 products from API data
+2025-11-18 00:56:44 - web_scraper - INFO - scrape_all_pages_api:100 - Page 1: Found 1922 products (Total so far: 1922)
+2025-11-18 00:56:44 - web_scraper - INFO - scrape_all_pages_api:110 - No more pages available
+2025-11-18 00:56:44 - web_scraper - INFO - scrape_all_pages_api:113 - Completed pagination: 1 pages, 1922 total products
+2025-11-18 00:56:44 - web_scraper - INFO - scrape_multiple_urls:142 - URL 1 complete: 1922 products
+2025-11-18 00:56:44 - web_scraper - INFO - close:53 - Browser closed
+2025-11-18 00:56:44 - web_scraper - INFO - main:181 - 
+Successfully scraped 1922 total products via API
+2025-11-18 00:56:44 - web_scraper - INFO - main:197 - 
+Saving data to files...
+2025-11-18 00:56:44 - web_scraper - INFO - __init__:24 - File storage initialized: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data
+2025-11-18 00:56:44 - web_scraper - INFO - save_json:56 - Saved 1922 products to JSON: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_005644.json
+2025-11-18 00:56:44 - web_scraper - INFO - save_csv:104 - Saved 1922 products to CSV: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_005644.csv
+2025-11-18 00:56:44 - web_scraper - WARNING - save_parquet:121 - pandas not available, skipping Parquet export
+2025-11-18 00:56:44 - web_scraper - INFO - main:207 - Scraping pipeline completed (API method)
+2025-11-18 01:01:03 - web_scraper - INFO - main:162 - Starting web scraping pipeline
+2025-11-18 01:01:03 - web_scraper - INFO - main:171 - Scraping 1 URL(s)
+2025-11-18 01:01:03 - web_scraper - INFO - main:173 -   1. https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 01:01:03 - web_scraper - INFO - main:176 - 
+Attempting to scrape via API interception...
+2025-11-18 01:01:03 - web_scraper - INFO - scrape_multiple_urls:131 - Scraping 1 URLs using API scraper...
+2025-11-18 01:01:06 - web_scraper - INFO - _start_browser:37 - Browser started for API interception
+2025-11-18 01:01:06 - web_scraper - INFO - scrape_multiple_urls:134 - 
+============================================================
+2025-11-18 01:01:06 - web_scraper - INFO - scrape_multiple_urls:135 - URL 1/1: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 01:01:06 - web_scraper - INFO - scrape_multiple_urls:136 - ============================================================
+2025-11-18 01:01:06 - web_scraper - INFO - scrape_all_pages_api:89 - Starting pagination scraping from: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 01:01:06 - web_scraper - INFO - scrape_all_pages_api:92 - ============================================================
+2025-11-18 01:01:06 - web_scraper - INFO - scrape_all_pages_api:93 - SCRAPING PAGE 1
+2025-11-18 01:01:06 - web_scraper - INFO - scrape_all_pages_api:94 - ============================================================
+2025-11-18 01:01:06 - web_scraper - INFO - scrape_page_api:25 - Scraping page via API: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 01:01:06 - web_scraper - INFO - scrape:120 - Navigating to: https://www.misuperfresh.com.gt/catalog/9?minPrice=0&maxPrice=225
+2025-11-18 01:01:10 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/resources/version (Status: 200)
+2025-11-18 01:01:10 - web_scraper - INFO - handle_response:91 -   Keys: ['version', 'code', 'indicator', 'message']
+2025-11-18 01:01:10 - web_scraper - INFO - handle_route:134 - Captured POST request body: {
+  "channel": "web",
+  "type": 7,
+  "store": {
+    "code": 204
+  }
+}
+2025-11-18 01:01:10 - web_scraper - INFO - handle_route:134 - Captured POST request body: {
+  "channel": "web",
+  "type": 7,
+  "store": {
+    "code": 204
+  }
+}
+2025-11-18 01:01:10 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/client/loyalty/program/points (Status: 200)
+2025-11-18 01:01:10 - web_scraper - INFO - handle_response:91 -   Keys: ['points', 'code', 'indicator', 'message']
+2025-11-18 01:01:10 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/catalog/categories (Status: 200)
+2025-11-18 01:01:10 - web_scraper - INFO - handle_response:91 -   Keys: ['categories', 'code', 'indicator', 'message']
+2025-11-18 01:01:10 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategories (Status: 200)
+2025-11-18 01:01:10 - web_scraper - INFO - handle_response:91 -   Keys: ['subcategories', 'code', 'indicator', 'message']
+2025-11-18 01:01:13 - web_scraper - INFO - handle_response:85 - Captured API response: https://msf-api.gta.com.gt/api/catalog/subcategory (Status: 200)
+2025-11-18 01:01:13 - web_scraper - INFO - handle_response:91 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 01:01:13 - web_scraper - INFO - scrape:154 - Received API response: https://msf-api.gta.com.gt/api/catalog/subcategory
+2025-11-18 01:01:13 - web_scraper - INFO - scrape:165 - Successfully captured products API response
+2025-11-18 01:01:13 - web_scraper - INFO - scrape:169 -   Keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 01:01:13 - web_scraper - INFO - scrape:199 - Using cached best config: {'type': 1, 'subcategoryId': 9}
+2025-11-18 01:01:13 - web_scraper - INFO - scrape:206 - Force all products mode enabled, trying additional API calls...
+2025-11-18 01:01:13 - web_scraper - INFO - scrape:248 - Trying API call 1/5 with config: {'type': 1, 'subcategoryId': 9}...
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:277 -   Config {'type': 1, 'subcategoryId': 9}: Found 1922 products
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:282 -   NEW BEST! Found 1922 products with config: {'type': 1, 'subcategoryId': 9}
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:248 - Trying API call 2/5 with config: {'type': 0, 'subcategoryId': 9}...
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:277 -   Config {'type': 0, 'subcategoryId': 9}: Found 0 products
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:248 - Trying API call 3/5 with config: {'subcategoryId': 9}...
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:277 -   Config {'subcategoryId': 9}: Found 0 products
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:248 - Trying API call 4/5 with config: {'type': 0}...
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:277 -   Config {'type': 0}: Found 0 products
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:248 - Trying API call 5/5 with config: {}...
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:277 -   Config {}: Found 0 products
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:304 - Cached best config: {'type': 1, 'subcategoryId': 9}
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:331 - Found subcategory data
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:331 - Found subcategory data
+2025-11-18 01:01:14 - web_scraper - INFO - scrape:328 - Found products data with 1922 products
+2025-11-18 01:01:14 - web_scraper - INFO - _parse_api_products:445 - Processing dict with keys: ['products', 'code', 'indicator', 'message']
+2025-11-18 01:01:14 - web_scraper - INFO - _parse_api_products:450 - Found key 'products' with type: <class 'list'>
+2025-11-18 01:01:14 - web_scraper - INFO - _parse_api_products:453 -   Processing 1922 items from 'products'
+2025-11-18 01:01:14 - web_scraper - INFO - _parse_api_products:475 - Parsed 1922 products from API data
+2025-11-18 01:01:14 - web_scraper - INFO - scrape_all_pages_api:100 - Page 1: Found 1922 products (Total so far: 1922)
+2025-11-18 01:01:14 - web_scraper - INFO - scrape_all_pages_api:110 - No more pages available
+2025-11-18 01:01:14 - web_scraper - INFO - scrape_all_pages_api:113 - Completed pagination: 1 pages, 1922 total products
+2025-11-18 01:01:14 - web_scraper - INFO - scrape_multiple_urls:142 - URL 1 complete: 1922 products
+2025-11-18 01:01:14 - web_scraper - INFO - close:53 - Browser closed
+2025-11-18 01:01:14 - web_scraper - INFO - main:181 - 
+Successfully scraped 1922 total products via API
+2025-11-18 01:01:14 - web_scraper - INFO - main:197 - 
+Saving data to files...
+2025-11-18 01:01:14 - web_scraper - INFO - __init__:24 - File storage initialized: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data
+2025-11-18 01:01:14 - web_scraper - INFO - save_json:56 - Saved 1922 products to JSON: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_010114.json
+2025-11-18 01:01:14 - web_scraper - INFO - save_csv:104 - Saved 1922 products to CSV: C:\Users\Usuario\Documents\GitHub\web-scrapping super\data\products_20251118_010114.csv
+2025-11-18 01:01:14 - web_scraper - WARNING - save_parquet:121 - pandas not available, skipping Parquet export
+2025-11-18 01:01:14 - web_scraper - INFO - main:207 - Scraping pipeline completed (API method)
