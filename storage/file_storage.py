@@ -113,7 +113,7 @@ class FileStorage:
             filename: Optional filename (default: products_YYYYMMDD_HHMMSS.parquet)
 
         Returns:
-            Path to saved file or None if pandas not available
+            Path to saved file or None if pandas/pyarrow not available
         """
         try:
             import pandas as pd
@@ -121,22 +121,29 @@ class FileStorage:
             logger.warning("pandas not available, skipping Parquet export")
             return None
 
-        if not filename:
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"products_{timestamp}.parquet"
+        try:
+            if not filename:
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                filename = f"products_{timestamp}.parquet"
 
-        filepath = self.output_dir / filename
+            filepath = self.output_dir / filename
 
-        # Convert to DataFrame
-        df = pd.DataFrame(data)
-        # Remove raw_data column if it exists (not serializable)
-        if "raw_data" in df.columns:
-            df = df.drop(columns=["raw_data"])
+            # Convert to DataFrame
+            df = pd.DataFrame(data)
+            # Remove raw_data column if it exists (not serializable)
+            if "raw_data" in df.columns:
+                df = df.drop(columns=["raw_data"])
 
-        df.to_parquet(filepath, index=False)
+            df.to_parquet(filepath, index=False)
 
-        logger.info(f"Saved {len(data)} products to Parquet: {filepath.absolute()}")
-        return filepath
+            logger.info(f"Saved {len(data)} products to Parquet: {filepath.absolute()}")
+            return filepath
+        except ImportError as e:
+            logger.warning(f"Parquet engine not available (pyarrow/fastparquet missing), skipping Parquet export: {e}")
+            return None
+        except Exception as e:
+            logger.error(f"Error saving Parquet file: {e}", exc_info=True)
+            return None
 
     def save(self, data: List[Dict[str, Any]], format: Optional[str] = None) -> Dict[str, Path]:
         """
